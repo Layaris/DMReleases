@@ -24,7 +24,7 @@ e backup cifrati. Funziona su Android, iPhone, tablet e computer.
   · [Guida d'uso](multifolio/GUIDA.md) · [Novità](multifolio/CHANGELOG.md)
 
 <!-- multifolio:latest -->
-_Prima pubblicazione in preparazione._
+- **Android: 0.6.0 (build 18)** del 07/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.6.0-build18/multifolio-0.6.0-build18.apk) · [Novità](multifolio/CHANGELOG.md)
 <!-- /multifolio:latest -->
 <!-- /app:multifolio -->
 
