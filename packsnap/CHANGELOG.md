@@ -14,8 +14,16 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 - Backup automatico in una cartella del telefono (funzione extra, Android)
 - Avviso quando esce una versione nuova, con il link per scaricarla (Android)
 - Versione e numero di build in Impostazioni
-- Correzione: cambiando solo l'icona di una categoria predefinita, il nome non resta più bloccato in una lingua
-- Librerie aggiornate e più controlli automatici
+- Il nome suggerito per un oggetto arriva nella lingua dell'app (anche in inglese)
+- Backup più sicuri: backup automatico e manuale non si disturbano più, i backup troppo grandi per la
+  password vengono segnalati subito, e un ripristino interrotto non lascia foto a metà
+- Più veloce con tanti oggetti (elenco viaggi e checklist)
+- Più facile da usare con il lettore di schermo (TalkBack, VoiceOver)
+- Web app: avviso "C'è una nuova versione · Ricarica" e funzionamento offline più affidabile
+- Correzioni: importi come "1,200" nella denuncia smarrimento, date nella settimana del cambio d'ora,
+  icona di una categoria predefinita che bloccava il nome in una lingua
+- I dati dell'app non vengono più copiati in automatico sul cloud di Google: restano sul telefono
+- Librerie aggiornate e molti più controlli automatici
 
 ## Versioni precedenti
 
