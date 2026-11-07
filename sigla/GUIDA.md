@@ -71,9 +71,15 @@ Niente viene inserito senza la tua conferma, e dopo puoi comunque spostare o eli
 Con i **PDF compilabili** (moduli con caselle già pronte) tocca **Campi › Dal profilo**: si compilano i campi
 vuoti che l'app riconosce dal nome.
 
+### Documenti scansionati
+
+Se il PDF è una scansione (una foto del foglio, senza testo), sull'**app Android** la ricerca sul
+dispositivo legge la pagina con il riconoscimento del testo del telefono (OCR), **senza internet**, e poi
+cerca le etichette come sopra. Nel browser questo non c'è: usa l'app Android oppure il riconoscimento AI.
+
 ### Riconoscimento AI (facoltativo)
 
-Se un PDF è una scansione (solo immagini, senza testo) la ricerca sul dispositivo non trova nulla. Puoi attivare
+Se un PDF è una scansione e non usi l'app Android, la ricerca sul dispositivo non trova nulla. Puoi attivare
 il riconoscimento AI in **Impostazioni › Riconoscimento AI** con una tua chiave API di Anthropic. Quando tocchi
 **Compila** l'app chiede se cercare **sul dispositivo** o con l'**AI avanzata**: con l'AI le pagine vengono
 inviate come immagini ad Anthropic. Il modello predefinito è `claude-haiku-5-5` e si può cambiare.
@@ -106,7 +112,7 @@ usare le firme. Si richiude quando esci dall'app. Nel browser non è disponibile
 |---|---|
 | **La firma importata ha ancora lo sfondo** | Sposta la soglia a sinistra, oppure rifotografa su carta bianca con più luce. |
 | **La firma importata è a pezzi** | Sposta la soglia a destra. |
-| **"Nessun campo riconosciuto"** | Il PDF è probabilmente una scansione: usa il riconoscimento AI o aggiungi i testi a mano. |
+| **"Nessun campo riconosciuto"** | Se è una scansione poco leggibile, rifalla con più luce; altrimenti usa il riconoscimento AI o aggiungi i testi a mano. |
 | **Il PDF non si apre** | Se è protetto da password, rimuovi la protezione e riprova. |
 | **"Password errata o file danneggiato"** | Controlla la password del backup (maiuscole comprese). |
 | **Il testo inserito ha un simbolo "?"** | Alcuni caratteri speciali non sono disponibili nel font del PDF e vengono sostituiti. |

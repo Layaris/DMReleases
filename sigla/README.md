@@ -64,7 +64,9 @@ con **Documenti › Apri PDF**.
   indirizzo…).
 - **Compila automaticamente** anche i moduli "di carta" (*Nome: ______*): l'app trova le etichette e
   propone i tuoi dati. Vedi sempre un'**anteprima** e confermi tu: niente viene inserito da solo.
-  Per i PDF scansionati c'è il **riconoscimento AI** facoltativo, con una tua chiave Anthropic.
+  Sull'app Android funziona anche con i **documenti scansionati**: il telefono legge il testo della
+  pagina da solo, senza internet. In alternativa c'è il **riconoscimento AI** facoltativo, con una tua
+  chiave Anthropic.
 - **Esporta PDF**: firme e testi diventano parte del documento (non modificabili), poi salvi o condividi.
 - **Backup** in un unico file `.sigla` protetto da password, con *unisci* o *sostituisci* all'import.
 - **Blocco firme** con impronta, Face ID o PIN (Android e iPhone).
