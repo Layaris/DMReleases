@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multifolio · DM Releases</title>
+  <meta name="description" content="Multifolio: tutto il tuo patrimonio in un posto solo. Web app, Android e iPhone, guida e novità.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f5f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1018" media="(prefers-color-scheme: dark)">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../assets/multifolio/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/multifolio/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/stile.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="../" aria-label="DM Releases, pagina principale">
+        <img class="brand-mark" src="../assets/dm.svg" alt="" width="32" height="32">
+        DM Releases
+      </a>
+      <nav aria-label="Sezioni">
+        <a href="#funzioni">Funzioni</a>
+        <a href="#galleria">Immagini</a>
+        <a href="#scarica">Scarica</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="app-title">
+            <img src="../assets/multifolio/logo.svg" alt="Logo di Multifolio" width="72" height="72">
+            <h1>Multifolio</h1>
+          </div>
+          <p class="lead">Tutto il tuo patrimonio in un posto solo: conti, contanti, crypto,
+            azioni ed ETF, obbligazioni, oro e pool DeFi, con il totale sempre aggiornato.</p>
+          <p class="muted">I dati restano sul tuo dispositivo. Backup e sincronizzazione sono
+            cifrati con la tua password.</p>
+          <div class="buttons" id="scarica">
+            <a class="btn btn-primary" href="https://multifolio.pages.dev" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-3a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8ZM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4ZM4.3 14a8.2 8.2 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3Zm.8 2h3a15.7 15.7 0 0 0 1.4 3.6A8 8 0 0 1 5.1 16Zm3-8h-3a8 8 0 0 1 4.4-3.6C8.9 5.5 8.4 6.7 8.1 8ZM12 20c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4Zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4Zm.2 5.6c.6-1.1 1.1-2.3 1.4-3.6h3a8 8 0 0 1-4.4 3.6Zm1.8-5.6a16.5 16.5 0 0 0 0-4h3.4a8.2 8.2 0 0 1 0 4h-3.4Z"/></svg>
+              Apri la web app
+            </a>
+            <a class="btn" id="btn-android" aria-disabled="true" role="link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.6 9.5 19.4 6.4a.4.4 0 0 0-.7-.4l-1.8 3.1a11 11 0 0 0-9.8 0L5.3 6a.4.4 0 0 0-.7.4l1.8 3.1A10.3 10.3 0 0 0 1 18h22a10.3 10.3 0 0 0-5.4-8.5ZM7 15.3a1.2 1.2 0 1 1 0-2.5 1.2 1.2 0 0 1 0 2.5Zm10 0a1.2 1.2 0 1 1 0-2.5 1.2 1.2 0 0 1 0 2.5Z"/></svg>
+              <span>Scarica per Android <span class="sub" data-stato>· In arrivo</span></span>
+            </a>
+            <a class="btn" id="btn-ios" aria-disabled="true" role="link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9a4.8 4.8 0 0 0-3.8-2c-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9a5 5 0 0 0-4.2 2.6c-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4a10 10 0 0 0 1.4-2.8 4.3 4.3 0 0 1-2.1-4.2ZM14 4.9A4.3 4.3 0 0 0 15 1.7a4.4 4.4 0 0 0-2.9 1.5 4.1 4.1 0 0 0-1 3.1A3.6 3.6 0 0 0 14 4.9Z"/></svg>
+              <span>iPhone (IPA) <span class="sub" data-stato>· In arrivo</span></span>
+            </a>
+          </div>
+          <p class="status" id="versione">Prima pubblicazione in preparazione. Intanto puoi usare la web app:
+            è la stessa app e si installa sulla schermata Home.</p>
+        </div>
+        <div class="hero-shot">
+          <picture>
+            <source srcset="../assets/multifolio/screenshot/telefono-scuro.png" media="(prefers-color-scheme: dark)">
+            <img src="../assets/multifolio/screenshot/telefono-home.png" alt="Home di Multifolio con il totale del patrimonio (dati dimostrativi)" width="540" height="1169">
+          </picture>
+          <picture>
+            <source srcset="../assets/multifolio/screenshot/telefono-scuro-portafoglio.png" media="(prefers-color-scheme: dark)">
+            <img src="../assets/multifolio/screenshot/telefono-portafoglio.png" alt="Un portafoglio crypto (dati dimostrativi)" width="540" height="1169">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section id="funzioni">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Cosa fa</h2>
+          <p class="muted">Le funzioni non essenziali si accendono e si spengono in Impostazioni › Funzioni.</p>
+        </div>
+        <div class="grid">
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 7H5a1 1 0 0 1 0-2h14V3H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h16V7Zm-3 8a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"/></svg></span>Patrimonio multi-asset</h3>
+            <p>Conti, contanti, crypto, azioni ed ETF, obbligazioni, oro, beni, crediti e debiti. Ogni asset sa dove lo tieni.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 4V1L8 5l4 4V6a6 6 0 0 1 5.7 7.9l1.5 1.5A8 8 0 0 0 12 4Zm0 14a6 6 0 0 1-5.7-7.9L4.8 8.6A8 8 0 0 0 12 20v3l4-4-4-4v3Z"/></svg></span>Prezzi automatici e valute</h3>
+            <p>Crypto da Binance, Coinbase o CoinGecko, azioni da Yahoo Finance, cambi BCE. Valuta principale e seconda valuta a scelta.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M10.6 13.4a1 1 0 0 1 0-1.4l3-3a1 1 0 1 1 1.4 1.4l-3 3a1 1 0 0 1-1.4 0Zm-2.1 6.2a4 4 0 0 1-2.8-6.8l2-2 1.4 1.4-2 2a2 2 0 0 0 2.8 2.8l2-2 1.4 1.4-2 2a4 4 0 0 1-2.8 1.2Zm7.3-5.4-1.4-1.4 2-2a2 2 0 0 0-2.8-2.8l-2 2-1.4-1.4 2-2a4 4 0 0 1 5.6 5.6l-2 2Z"/></svg></span>Exchange e indirizzi</h3>
+            <p>Saldi automatici da 9 exchange con chiavi in sola lettura e da indirizzi Bitcoin, Ethereum, Solana e altri. Posizioni DeFi con APY.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 17.2 9 11l4 4 7.3-8.2 1.4 1.4L13 18l-4-4-4.6 4.6L3 17.2ZM3 21h18v-2H3v2Z"/></svg></span>Grafici e analisi</h3>
+            <p>Andamento, ripartizione, rendimento per periodo, confronto con Bitcoin, S&amp;P 500 o inflazione, mappa di calore, ribilanciamento.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14.4 6 14 4H5v17h2v-7h5.6l.4 2h7V6h-5.6Z"/></svg></span>Obiettivi e report</h3>
+            <p>Traguardi con stima della data, movimenti ricorrenti, report PDF mensile e riepilogo di fine anno.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 4a6 6 0 1 1-6 6 6 6 0 0 1 6-6Zm0 3a3 3 0 1 0 3 3 3 3 0 0 0-3-3Z"/></svg></span>Pool DeFi</h3>
+            <p>Avvisi APY dal link del pool e monitoraggio con grafici e segnali di rischio: TVL in calo, APY anomalo, possibili exploit.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2Zm6-6V11a6 6 0 0 0-4.5-5.8V4a1.5 1.5 0 0 0-3 0v1.2A6 6 0 0 0 6 11v5l-2 2v1h16v-1l-2-2Z"/></svg></span>Notifiche e avvisi</h3>
+            <p>Prezzo, variazioni in 24 ore, stablecoin che perdono l'aggancio, pool, promemoria backup e notizie di attacchi hacker (spenta di default).</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18 8h-1V6A5 5 0 0 0 7 6v2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2Zm-6 9a2 2 0 1 1 2-2 2 2 0 0 1-2 2Zm3.1-9H8.9V6a3.1 3.1 0 0 1 6.2 0v2Z"/></svg></span>Backup e account cifrati</h3>
+            <p>Backup AES-256 su file, cartella o Google Drive. Account con sincronizzazione cifrata end-to-end e codice di recupero.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 0 0 0 18 1.5 1.5 0 0 0 1.1-2.5 1.5 1.5 0 0 1 1.1-2.5H16a5 5 0 0 0 5-5c0-4.4-4-8-9-8Zm-5.5 9a1.5 1.5 0 1 1 1.5-1.5A1.5 1.5 0 0 1 6.5 12Zm3-4A1.5 1.5 0 1 1 11 6.5 1.5 1.5 0 0 1 9.5 8Zm5 0A1.5 1.5 0 1 1 16 6.5 1.5 1.5 0 0 1 14.5 8Zm3 4a1.5 1.5 0 1 1 1.5-1.5 1.5 1.5 0 0 1-1.5 1.5Z"/></svg></span>Temi, tablet e computer</h3>
+            <p>Sei temi tra cui Sakura Pop e Ghiaccio, effetti facoltativi, layout per tablet (anche in orizzontale) e computer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galleria">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Immagini</h2>
+          <p class="muted">Tutte le immagini usano <strong>dati dimostrativi inventati</strong>. Tocca un'immagine per ingrandirla.</p>
+        </div>
+
+        <h3>Telefono</h3>
+        <div class="gallery phone" tabindex="0" aria-label="Immagini sul telefono, scorri di lato">
+          <figure><a href="../assets/multifolio/screenshot/telefono-home.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-home.png" alt="Home con il totale" width="540" height="1169"></a><figcaption>Home e totale</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-portafoglio.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-portafoglio.png" alt="Portafoglio crypto" width="540" height="1169"></a><figcaption>Portafoglio</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-asset.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-asset.png" alt="Dettaglio di un asset" width="540" height="1169"></a><figcaption>Dettaglio asset</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-analisi.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-analisi.png" alt="Andamento e ripartizione" width="540" height="1169"></a><figcaption>Andamento</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-impostazioni.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-impostazioni.png" alt="Impostazioni in categorie" width="540" height="1169"></a><figcaption>Impostazioni</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-pool.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-pool.png" alt="Monitoraggio pool DeFi" width="540" height="1169"></a><figcaption>Monitoraggio pool</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-pool-dettaglio.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-pool-dettaglio.png" alt="Dettaglio di un pool con avviso di rischio" width="540" height="1169"></a><figcaption>Avviso su un pool</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-notizie.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-notizie.png" alt="Notizie di attacchi hacker" width="540" height="1169"></a><figcaption>Notizie di attacchi</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-notizie-scuro.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-notizie-scuro.png" alt="Notizie di attacchi hacker, tema Ardesia" width="540" height="1169"></a><figcaption>Notizie, tema Ardesia</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-scuro.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-scuro.png" alt="Tema Classico scuro" width="540" height="1169"></a><figcaption>Tema scuro</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/telefono-sakura-home.png"><img loading="lazy" src="../assets/multifolio/screenshot/telefono-sakura-home.png" alt="Tema Sakura Pop" width="540" height="1169"></a><figcaption>Tema Sakura Pop</figcaption></figure>
+        </div>
+
+        <h3 style="margin-top:24px">Tablet e computer</h3>
+        <div class="gallery wide" tabindex="0" aria-label="Immagini su tablet e computer, scorri di lato">
+          <figure><a href="../assets/multifolio/screenshot/tablet-home.png"><img loading="lazy" src="../assets/multifolio/screenshot/tablet-home.png" alt="Tablet in orizzontale" width="1200" height="750"></a><figcaption>Tablet in orizzontale</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/tablet-analisi.png"><img loading="lazy" src="../assets/multifolio/screenshot/tablet-analisi.png" alt="Andamento su tablet" width="1200" height="750"></a><figcaption>Andamento su tablet</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/computer-home.png"><img loading="lazy" src="../assets/multifolio/screenshot/computer-home.png" alt="Cruscotto sul computer" width="1200" height="750"></a><figcaption>Cruscotto sul computer</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/computer-portafoglio.png"><img loading="lazy" src="../assets/multifolio/screenshot/computer-portafoglio.png" alt="Tabella degli asset sul computer" width="1200" height="750"></a><figcaption>Tabella degli asset</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/computer-analisi.png"><img loading="lazy" src="../assets/multifolio/screenshot/computer-analisi.png" alt="Andamento sul computer" width="1200" height="750"></a><figcaption>Andamento sul computer</figcaption></figure>
+          <figure><a href="../assets/multifolio/screenshot/computer-scuro.png"><img loading="lazy" src="../assets/multifolio/screenshot/computer-scuro.png" alt="Computer con tema scuro" width="1200" height="750"></a><figcaption>Tema scuro</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap two">
+        <div class="card">
+          <h3>Installala dal browser</h3>
+          <ol class="steps">
+            <li><strong>iPhone (Safari):</strong> apri multifolio.pages.dev › Condividi › Aggiungi alla schermata Home.</li>
+            <li><strong>Android (Chrome):</strong> menu ⋮ › Installa app.</li>
+            <li><strong>Computer (Chrome o Edge):</strong> icona Installa nella barra dell'indirizzo.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Documenti</h3>
+          <p class="muted">Tutto quello che serve per iniziare e restare aggiornati.</p>
+          <div class="buttons">
+            <a class="btn" href="https://github.com/Layaris/DMReleases/blob/main/multifolio/GUIDA.md">Guida d'uso</a>
+            <a class="btn" href="https://github.com/Layaris/DMReleases/blob/main/multifolio/CHANGELOG.md">Novità</a>
+            <a class="btn" href="https://github.com/Layaris/DMReleases/tree/main/multifolio">Pagina su GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><a href="../">← Tutte le app</a></p>
+      <p>Multifolio è un'app personale, condivisa così com'è e <strong>senza alcuna garanzia</strong>.
+        Valori e analisi sono solo informativi e <strong>non sono consulenza finanziaria</strong>.</p>
+      <p>Questo sito non usa cookie né sistemi di tracciamento. © DM Releases. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Legge latest.json (stessa cartella, copia di multifolio/latest.json scritta
+    // dalla pubblicazione automatica). Campi: version, build, date, apk per Android;
+    // ipa_version, ipa_build, ipa_date, ipa per iPhone. Senza file o senza link i
+    // pulsanti restano "In arrivo".
+    (function () {
+      function data(iso) {
+        var d = iso ? new Date(iso) : null;
+        return d && !isNaN(d) ? d.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+      }
+      function sicuro(url) { return typeof url === 'string' && /^https:\/\/github\.com\//.test(url) ? url : null; }
+      function attiva(id, url, versione, primario) {
+        var b = document.getElementById(id);
+        if (!b || !url) return false;
+        b.href = url;
+        b.removeAttribute('aria-disabled');
+        b.removeAttribute('role');
+        if (primario) b.classList.add('btn-primary');
+        var s = b.querySelector('[data-stato]');
+        if (s) s.textContent = versione ? '· ' + versione : '';
+        return true;
+      }
+      fetch('latest.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+          if (!d || d.app !== 'multifolio') return;
+          var righe = [];
+          if (attiva('btn-android', sicuro(d.apk), d.version, false)) {
+            righe.push('Android ' + d.version + (d.build ? ' (build ' + d.build + ')' : '') + (d.date ? ' del ' + data(d.date) : ''));
+          }
+          if (attiva('btn-ios', sicuro(d.ipa), d.ipa_version, false)) {
+            righe.push('iPhone ' + d.ipa_version + (d.ipa_build ? ' (build ' + d.ipa_build + ')' : '') + (d.ipa_date ? ' del ' + data(d.ipa_date) : ''));
+          }
+          if (!righe.length) return;
+          var v = document.getElementById('versione');
+          v.textContent = 'Ultima versione: ' + righe.join(' · ') + '. ';
+          var a = document.createElement('a');
+          a.href = 'https://github.com/Layaris/DMReleases/blob/main/multifolio/CHANGELOG.md';
+          a.textContent = 'Cosa cambia';
+          v.appendChild(a);
+        })
+        .catch(function () {});
+    })();
+  </script>
+</body>
+</html>

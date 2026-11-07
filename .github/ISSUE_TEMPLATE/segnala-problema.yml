@@ -1,0 +1,67 @@
+name: Segnala un problema
+description: Qualcosa non funziona in una delle app? Raccontalo qui.
+title: "[Problema] "
+labels: ["problema"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie della segnalazione! **Non scrivere mai** importi, saldi, indirizzi di wallet,
+        chiavi API, password, email o altri dati personali. Se alleghi screenshot,
+        nascondi prima gli importi (icona dell'occhio nell'app).
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Multifolio
+    validations:
+      required: true
+  - type: input
+    id: versione
+    attributes:
+      label: Versione dell'app
+      description: "In Multifolio: Impostazioni, in fondo alla pagina (es. 0.6.0)."
+      placeholder: "0.6.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: piattaforma
+    attributes:
+      label: Dove la usi
+      options:
+        - App Android (APK)
+        - App iPhone (IPA)
+        - Web app su iPhone o iPad
+        - Web app su Android
+        - Web app su computer
+    validations:
+      required: true
+  - type: input
+    id: dispositivo
+    attributes:
+      label: Dispositivo e sistema
+      placeholder: "es. Pixel 8 con Android 16, iPhone 15 con iOS 26, Chrome su Windows"
+    validations:
+      required: true
+  - type: textarea
+    id: passi
+    attributes:
+      label: Passi per ripetere il problema
+      placeholder: |
+        1. Apro …
+        2. Tocco …
+        3. Succede …
+    validations:
+      required: true
+  - type: textarea
+    id: atteso
+    attributes:
+      label: Cosa ti aspettavi e cosa succede invece
+    validations:
+      required: true
+  - type: textarea
+    id: altro
+    attributes:
+      label: Altre informazioni
+      description: "Facoltativo: messaggi di errore (Impostazioni, Avanzate, Diagnostica) senza dati personali."

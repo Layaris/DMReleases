@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DM Releases</title>
+  <meta name="description" content="Pubblicazioni ufficiali delle app DM: download per Android e iPhone, web app, guide e novità.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f5f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1018" media="(prefers-color-scheme: dark)">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="assets/dm.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/stile.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="DM Releases, pagina principale">
+        <img class="brand-mark" src="assets/dm.svg" alt="" width="32" height="32">
+        DM Releases
+      </a>
+      <nav aria-label="Sezioni">
+        <a href="#app">App</a>
+        <a href="#installare">Installare</a>
+        <a href="https://github.com/Layaris/DMReleases">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Pubblicazioni ufficiali</p>
+        <h1>Le app DM, pronte da installare</h1>
+        <p class="lead">File per Android e iPhone, web app, guide d'uso e novità di ogni
+          versione. Solo pubblicazioni e documentazione: niente codice, niente dati personali.</p>
+      </div>
+    </section>
+
+    <section id="app" style="padding-top:8px">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>App</h2>
+        </div>
+
+        <article class="card app-card">
+          <img class="logo" src="assets/multifolio/logo.svg" alt="Logo di Multifolio" width="88" height="88">
+          <div>
+            <h3 style="font-size:24px">Multifolio</h3>
+            <p class="muted">Tutto il tuo patrimonio in un posto solo: conti, contanti, crypto,
+              azioni ed ETF, obbligazioni, oro e pool DeFi, con prezzi automatici, grafici,
+              obiettivi, report PDF e backup cifrati.</p>
+            <ul class="tags" aria-label="Disponibile per">
+              <li>Web app</li><li>Android</li><li>iPhone</li><li>Tablet e computer</li>
+            </ul>
+            <div class="buttons">
+              <a class="btn btn-primary" href="multifolio/">Scopri Multifolio</a>
+              <a class="btn" href="https://multifolio.pages.dev" rel="noopener">Apri la web app</a>
+            </div>
+            <p class="status" id="mf-stato">Prima pubblicazione in preparazione.</p>
+          </div>
+        </article>
+
+        <p class="note" style="margin-top:14px">Altre app arriveranno qui.</p>
+      </div>
+    </section>
+
+    <section id="installare">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Come installare</h2>
+          <p class="muted">Le app non passano dagli store: si installano dai file pubblicati qui.</p>
+        </div>
+        <div class="two">
+          <div class="card">
+            <h3>Android (APK)</h3>
+            <ol class="steps">
+              <li>Scarica il file <strong>.apk</strong> dalla pagina dell'app.</li>
+              <li>Aprilo e, la prima volta, consenti l'installazione <strong>da questa origine</strong>.</li>
+              <li>Tocca <strong>Installa</strong>.</li>
+              <li>Per aggiornare installa il nuovo APK <strong>sopra</strong> quello vecchio:
+                stessa firma, i dati restano.</li>
+            </ol>
+          </div>
+          <div class="card">
+            <h3>iPhone (IPA)</h3>
+            <ol class="steps">
+              <li>Installa <strong>SideStore</strong> (o AltStore, Sideloadly).</li>
+              <li>Scarica il file <strong>.ipa</strong> e aprilo con SideStore › My Apps › +.</li>
+              <li>Autorizza il profilo in Impostazioni › Generali › VPN e gestione dispositivi.</li>
+              <li>Con un Apple ID gratuito <strong>rinnova ogni 7 giorni</strong> (i dati restano).</li>
+            </ol>
+          </div>
+        </div>
+        <p style="margin-top:16px"><a href="https://github.com/Layaris/DMReleases#installare-unapp-su-android-file-apk">Guida completa all'installazione</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>App personali, condivise così come sono e <strong>senza alcuna garanzia</strong>.
+        Valori e analisi sono solo informativi e <strong>non sono consulenza finanziaria</strong>.</p>
+      <p>Questo sito non usa cookie né sistemi di tracciamento. © DM Releases. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Stato dell'ultima versione di Multifolio, se pubblicata (multifolio/latest.json).
+    fetch('multifolio/latest.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || d.app !== 'multifolio') return;
+        var parti = [];
+        if (d.apk && d.version) parti.push('Android ' + d.version);
+        if (d.ipa && d.ipa_version) parti.push('iPhone ' + d.ipa_version);
+        if (parti.length) document.getElementById('mf-stato').textContent = 'Ultima versione: ' + parti.join(' · ');
+      })
+      .catch(function () {});
+  </script>
+</body>
+</html>
