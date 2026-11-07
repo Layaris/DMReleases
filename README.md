@@ -44,6 +44,21 @@ _Prima pubblicazione in preparazione._
 <!-- /packsnap:latest -->
 <!-- /app:packsnap -->
 
+<!-- app:sigla -->
+### <img src="sigla/grafica/icona-192.png" alt="" width="28" height="28" align="top"> Sigla
+
+Compila e firma PDF dal telefono: firme disegnate, da foto o scritte, sigla su tutte le pagine,
+compilazione automatica dei moduli dal tuo profilo, backup cifrati. Senza account: documenti e firme
+restano sul dispositivo. Android e iPhone.
+
+- **Download, descrizione e guida:** cartella [`sigla/`](sigla/README.md)
+  · [Guida d'uso](sigla/GUIDA.md) · [Novità](sigla/CHANGELOG.md) · [Privacy](sigla/PRIVACY.md)
+
+<!-- sigla:latest -->
+_Prima pubblicazione in preparazione._
+<!-- /sigla:latest -->
+<!-- /app:sigla -->
+
 ---
 
 ## Installare un'app su Android (file APK)

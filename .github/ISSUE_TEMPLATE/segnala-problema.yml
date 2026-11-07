@@ -15,13 +15,15 @@ body:
       label: App
       options:
         - Multifolio
+        - PackSnap
+        - Sigla
     validations:
       required: true
   - type: input
     id: versione
     attributes:
       label: Versione dell'app
-      description: "In Multifolio: Impostazioni, in fondo alla pagina (es. 0.6.0)."
+      description: "In Multifolio: Impostazioni, in fondo alla pagina (es. 0.6.0). In Sigla: Impostazioni › Privacy e informazioni."
       placeholder: "0.6.0"
     validations:
       required: true
