@@ -17,6 +17,7 @@ Prima pubblicazione:
   "Apri con" e "Condividi" su Android
 - Firma, sigla, testo, data, spunta e croce sulle pagine; sigla su tutte le pagine; annulla e ripeti
 - Campi dei PDF compilabili, profilo per l'autocompilazione, compilazione automatica dei moduli
-  non compilabili con anteprima e conferma; riconoscimento AI facoltativo
+  non compilabili con anteprima e conferma; su Android anche dai documenti scansionati (OCR sul
+  telefono, senza internet); riconoscimento AI facoltativo
 - Esportazione del PDF con firme e testi fissati, salva o condividi
 - Backup cifrato con password, blocco firme con impronta o Face ID, tema chiaro e scuro

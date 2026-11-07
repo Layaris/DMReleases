@@ -24,7 +24,8 @@ Solo in questo caso, e solo se lo attivi:
 | Riconoscimento AI dei campi (facoltativo, con la tua chiave) | Anthropic (API Claude) | Le immagini delle pagine del documento che scegli di analizzare |
 
 Prima di ogni invio l'app chiede quale motore usare e ricorda che le pagine vengono inviate.
-Il riconoscimento predefinito funziona **sul dispositivo, senza internet**.
+Il riconoscimento predefinito funziona **sul dispositivo, senza internet**; sull'app Android anche la
+lettura dei documenti scansionati (OCR di Google ML Kit) avviene sul telefono e non invia nulla.
 La chiave API resta sul dispositivo e non finisce mai nei backup.
 Non usare l'AI per documenti che non vuoi condividere.
 
