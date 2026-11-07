@@ -61,6 +61,23 @@
           </div>
         </article>
 
+        <article class="card app-card" style="margin-top:14px">
+          <img class="logo" src="assets/packsnap/icona-192.png" alt="Icona di PackSnap" width="88" height="88" style="border-radius:20px">
+          <div>
+            <h3 style="font-size:24px">PackSnap</h3>
+            <p class="muted">Fotografa i tuoi oggetti, scontornali e prepara la valigia con le checklist
+              di viaggio. Senza account: i dati restano sul tuo dispositivo.</p>
+            <ul class="tags" aria-label="Disponibile per">
+              <li>Web app</li><li>Android</li><li>iPhone (web app)</li><li>Computer</li>
+            </ul>
+            <div class="buttons">
+              <a class="btn btn-primary" href="packsnap/">Scopri PackSnap</a>
+              <a class="btn" href="https://dmpacksnap.pages.dev" rel="noopener">Apri la web app</a>
+            </div>
+            <p class="status" id="ps-stato">Prima pubblicazione Android in preparazione.</p>
+          </div>
+        </article>
+
         <p class="note" style="margin-top:14px">Altre app arriveranno qui.</p>
       </div>
     </section>
@@ -115,6 +132,17 @@
         if (d.apk && d.version) parti.push('Android ' + d.version);
         if (d.ipa && d.ipa_version) parti.push('iPhone ' + d.ipa_version);
         if (parti.length) document.getElementById('mf-stato').textContent = 'Ultima versione: ' + parti.join(' · ');
+      })
+      .catch(function () {});
+    // Stato dell'ultima versione di PackSnap, se pubblicata (packsnap/latest.json).
+    fetch('packsnap/latest.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || d.app !== 'packsnap') return;
+        var parti = [];
+        if (d.apk && d.version) parti.push('Android ' + d.version + (d.build ? ' (build ' + d.build + ')' : ''));
+        if (d.ipa && d.ipa_version) parti.push('iPhone ' + d.ipa_version);
+        if (parti.length) document.getElementById('ps-stato').textContent = 'Ultima versione: ' + parti.join(' · ');
       })
       .catch(function () {});
   </script>

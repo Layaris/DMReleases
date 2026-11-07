@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PackSnap · DM Releases</title>
+  <meta name="description" content="PackSnap: fotografa i tuoi oggetti, scontornali e prepara la valigia con le checklist di viaggio. Web app, Android, guida e novità.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f5f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1018" media="(prefers-color-scheme: dark)">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../assets/packsnap/icona-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/packsnap/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/stile.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="../" aria-label="DM Releases, pagina principale">
+        <img class="brand-mark" src="../assets/dm.svg" alt="" width="32" height="32">
+        DM Releases
+      </a>
+      <nav aria-label="Sezioni">
+        <a href="#funzioni">Funzioni</a>
+        <a href="#galleria">Immagini</a>
+        <a href="#scarica">Scarica</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="app-title">
+            <img src="../assets/packsnap/icona-192.png" alt="Icona di PackSnap" width="72" height="72" style="border-radius:18px">
+            <h1>PackSnap</h1>
+          </div>
+          <p class="lead">Fotografa i tuoi oggetti, scontornali e prepara la valigia con le checklist di viaggio.</p>
+          <p class="muted">Gratis, senza account e senza pubblicità: i dati restano sul tuo dispositivo.</p>
+          <div class="buttons" id="scarica">
+            <a class="btn btn-primary" href="https://dmpacksnap.pages.dev" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-3a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8ZM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4ZM4.3 14a8.2 8.2 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3Zm.8 2h3a15.7 15.7 0 0 0 1.4 3.6A8 8 0 0 1 5.1 16Zm3-8h-3a8 8 0 0 1 4.4-3.6C8.9 5.5 8.4 6.7 8.1 8ZM12 20c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4Zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4Zm.2 5.6c.6-1.1 1.1-2.3 1.4-3.6h3a8 8 0 0 1-4.4 3.6Zm1.8-5.6a16.5 16.5 0 0 0 0-4h3.4a8.2 8.2 0 0 1 0 4h-3.4Z"/></svg>
+              Apri la web app
+            </a>
+            <a class="btn" id="btn-android" aria-disabled="true" role="link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.6 9.5 19.4 6.4a.4.4 0 0 0-.7-.4l-1.8 3.1a11 11 0 0 0-9.8 0L5.3 6a.4.4 0 0 0-.7.4l1.8 3.1A10.3 10.3 0 0 0 1 18h22a10.3 10.3 0 0 0-5.4-8.5ZM7 15.3a1.2 1.2 0 1 1 0-2.5 1.2 1.2 0 0 1 0 2.5Zm10 0a1.2 1.2 0 1 1 0-2.5 1.2 1.2 0 0 1 0 2.5Z"/></svg>
+              <span>Scarica per Android <span class="sub" data-stato>· In arrivo</span></span>
+            </a>
+            <a class="btn" id="btn-ios" aria-disabled="true" role="link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9a4.8 4.8 0 0 0-3.8-2c-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9a5 5 0 0 0-4.2 2.6c-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4a10 10 0 0 0 1.4-2.8 4.3 4.3 0 0 1-2.1-4.2ZM14 4.9A4.3 4.3 0 0 0 15 1.7a4.4 4.4 0 0 0-2.9 1.5 4.1 4.1 0 0 0-1 3.1A3.6 3.6 0 0 0 14 4.9Z"/></svg>
+              <span>iPhone (IPA) <span class="sub" data-stato>· Non disponibile, usa la web app</span></span>
+            </a>
+          </div>
+          <p class="status" id="versione">Prima pubblicazione Android in preparazione. Intanto puoi usare la web app,
+            anche su iPhone: si aggiunge alla schermata Home.</p>
+        </div>
+        <div class="hero-shot">
+          <picture>
+            <source srcset="../assets/packsnap/screenshot/telefono-inventario-scuro.png" media="(prefers-color-scheme: dark)">
+            <img src="../assets/packsnap/screenshot/telefono-inventario.png" alt="Inventario con le foto scontornate (dati di esempio)" width="540" height="1170">
+          </picture>
+          <picture>
+            <source srcset="../assets/packsnap/screenshot/telefono-valigie-scuro.png" media="(prefers-color-scheme: dark)">
+            <img src="../assets/packsnap/screenshot/telefono-checklist.png" alt="Checklist della valigia (dati di esempio)" width="540" height="1170">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section id="funzioni">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Cosa fa</h2>
+          <p class="muted">Le funzioni non essenziali si accendono e si spengono in Impostazioni › Funzioni extra. All'inizio sono tutte spente.</p>
+        </div>
+        <div class="grid">
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 9a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm8-3h-3.2L15 4H9L7.2 6H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Z"/></svg></span>Inventario con le foto</h3>
+            <p>L'app toglie lo sfondo da sola, anche con più oggetti in una foto, e propone il nome. Se serve, ritocchi con il pennello.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9 2h6v3h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-1v1h-2v-1H9v1H7v-1H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h3V2Zm2 3h2V4h-2v1Zm-3 4v8h2V9H8Zm6 0v8h2V9h-2Z"/></svg></span>Valigie e viaggi</h3>
+            <p>Ogni viaggio ha le sue valigie e una checklist per categoria, con quantità e percentuale di completamento.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2Z"/></svg></span>Checklist che si riusano</h3>
+            <p>Liste modello, viaggi duplicabili, filtro "solo mancanti" e, se vuoi, la checklist del ritorno.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 3h8v8H3V3Zm2 2v4h4V5H5Zm8-2h8v8h-8V3Zm2 2v4h4V5h-4ZM3 13h8v8H3v-8Zm2 2v4h4v-4H5Zm8-2h2v2h-2v-2Zm2 2h2v2h-2v-2Zm2-2h4v2h-4v-2Zm0 4h2v4h-4v-2h2v-2Zm-4 2h2v2h-2v-2Zm6 0h2v2h-2v-2Z"/></svg></span>Etichetta e "Dov'è?"</h3>
+            <p>Etichetta del bagaglio con QR da stampare in PDF e ricerca per sapere in quale valigia hai messo un oggetto.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-2-4ZM12 19a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm3-10H5V5h10v4Z"/></svg></span>Backup in un file</h3>
+            <p>Un file ZIP con tutto, anche protetto da password, che funziona tra Android, iPhone e computer.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 17v2h6v-2H3ZM3 5v2h10V5H3Zm10 16v-2h8v-2h-8v-2h-2v6h2ZM7 9v2H3v2h4v2h2V9H7Zm14 4v-2H11v2h10Zm-6-4h2V7h4V5h-4V3h-2v6Z"/></svg></span>Funzioni extra</h3>
+            <p>Meteo, promemoria, documenti e scadenze, peso, cose da fare prima di partire, backup automatico e altro: tutte facoltative.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galleria">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Immagini</h2>
+          <p class="muted">Gli oggetti nelle immagini sono <strong>dati di esempio</strong>. Tocca un'immagine per ingrandirla.</p>
+        </div>
+        <div class="gallery phone" tabindex="0" aria-label="Immagini sul telefono, scorri di lato">
+          <figure><a href="../assets/packsnap/screenshot/telefono-inventario.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-inventario.png" alt="Inventario" width="540" height="1170"></a><figcaption>Inventario</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-checklist.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-checklist.png" alt="Checklist" width="540" height="1170"></a><figcaption>Checklist</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-viaggio-meteo.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-viaggio-meteo.png" alt="Viaggio e meteo" width="540" height="1170"></a><figcaption>Viaggio e meteo</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-valigia-pronta.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-valigia-pronta.png" alt="Valigia pronta" width="540" height="1170"></a><figcaption>Valigia pronta</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-etichetta-qr.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-etichetta-qr.png" alt="Etichetta con QR" width="540" height="1170"></a><figcaption>Etichetta con QR</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-dove.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-dove.png" alt="Dov'è?" width="540" height="1170"></a><figcaption>Dov'è?</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-assistente.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-assistente.png" alt="Assistente viaggio" width="540" height="1170"></a><figcaption>Assistente viaggio</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-viaggi.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-viaggi.png" alt="Viaggi" width="540" height="1170"></a><figcaption>Viaggi</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-valigie-scuro.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-valigie-scuro.png" alt="Valigie, tema scuro" width="540" height="1170"></a><figcaption>Valigie, tema scuro</figcaption></figure>
+          <figure><a href="../assets/packsnap/screenshot/telefono-inventario-scuro.png"><img loading="lazy" src="../assets/packsnap/screenshot/telefono-inventario-scuro.png" alt="Elenco, tema scuro" width="540" height="1170"></a><figcaption>Elenco, tema scuro</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap two">
+        <div class="card">
+          <h3>Su iPhone e computer</h3>
+          <ol class="steps">
+            <li><strong>iPhone (Safari):</strong> apri dmpacksnap.pages.dev › Condividi › Aggiungi alla schermata Home. Usala sempre dall'icona.</li>
+            <li><strong>Computer:</strong> apri dmpacksnap.pages.dev nel browser.</li>
+            <li>Il primo scontorno scarica circa 44 MB: meglio con il Wi-Fi.</li>
+            <li>Il backup è compatibile con l'app Android.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Documenti</h3>
+          <p class="muted">Tutto quello che serve per iniziare e restare aggiornati.</p>
+          <div class="buttons">
+            <a class="btn" href="https://github.com/Layaris/DMReleases/blob/main/packsnap/GUIDA.md">Guida d'uso</a>
+            <a class="btn" href="https://github.com/Layaris/DMReleases/blob/main/packsnap/CHANGELOG.md">Novità</a>
+            <a class="btn" href="privacy.html">Privacy</a>
+            <a class="btn" href="https://github.com/Layaris/DMReleases/tree/main/packsnap">Pagina su GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><a href="../">← Tutte le app</a></p>
+      <p>PackSnap è un'app personale, condivisa così com'è e <strong>senza alcuna garanzia</strong>. PackSnap è il nome provvisorio.</p>
+      <p>Questo sito non usa cookie né sistemi di tracciamento. © DM Releases. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Legge latest.json (stessa cartella, copia di packsnap/latest.json scritta
+    // dalla pubblicazione automatica). Campi: version, build, date, apk per Android;
+    // ipa_version, ipa_build, ipa_date, ipa per iPhone. Senza file o senza link i
+    // pulsanti restano "In arrivo".
+    (function () {
+      function data(iso) {
+        var d = iso ? new Date(iso) : null;
+        return d && !isNaN(d) ? d.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+      }
+      function sicuro(url) { return typeof url === 'string' && /^https:\/\/github\.com\//.test(url) ? url : null; }
+      function attiva(id, url, versione, primario) {
+        var b = document.getElementById(id);
+        if (!b || !url) return false;
+        b.href = url;
+        b.removeAttribute('aria-disabled');
+        b.removeAttribute('role');
+        if (primario) b.classList.add('btn-primary');
+        var s = b.querySelector('[data-stato]');
+        if (s) s.textContent = versione ? '· ' + versione : '';
+        return true;
+      }
+      fetch('latest.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+          if (!d || d.app !== 'packsnap') return;
+          var righe = [];
+          if (attiva('btn-android', sicuro(d.apk), d.version, false)) {
+            righe.push('Android ' + d.version + (d.build ? ' (build ' + d.build + ')' : '') + (d.date ? ' del ' + data(d.date) : ''));
+          }
+          if (attiva('btn-ios', sicuro(d.ipa), d.ipa_version, false)) {
+            righe.push('iPhone ' + d.ipa_version + (d.ipa_build ? ' (build ' + d.ipa_build + ')' : '') + (d.ipa_date ? ' del ' + data(d.ipa_date) : ''));
+          }
+          if (!righe.length) return;
+          var v = document.getElementById('versione');
+          v.textContent = 'Ultima versione: ' + righe.join(' · ') + '. ';
+          var a = document.createElement('a');
+          a.href = 'https://github.com/Layaris/DMReleases/blob/main/packsnap/CHANGELOG.md';
+          a.textContent = 'Cosa cambia';
+          v.appendChild(a);
+        })
+        .catch(function () {});
+    })();
+  </script>
+</body>
+</html>
