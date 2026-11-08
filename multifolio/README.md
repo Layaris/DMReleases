@@ -59,17 +59,27 @@ I dati restano sul tuo dispositivo; la sincronizzazione, se la vuoi, è cifrata.
 **Strumenti**
 - **Obiettivi** di patrimonio con stima di quando ci arrivi.
 - **Movimenti ricorrenti** (stipendio, affitto, piani di accumulo).
-- **Report PDF** mensile e **riepilogo di fine anno** (per conto e paese, PDF o CSV).
+- **Report ed esportazioni** in un posto solo: report PDF del patrimonio (mese o anno,
+  anche passati), **riepilogo di fine anno** (per conto e paese, PDF o CSV), report dei
+  guadagni dai pool ed esportazione CSV.
 - Storico di tutti i movimenti con filtri, immagine della ripartizione da condividere
   (senza importi), widget con il totale sulla schermata Home.
 
-**Pool DeFi**
+**Pool DeFi** (tutto in Strumenti › Pool DeFi)
+- **Guadagni dai pool**: interessi di oggi, per settimana e per mese, per pool e per
+  indirizzo, con rendimento annuo stimato; anche per i portafogli tenuti fuori dal
+  totale, come sezione a parte dal patrimonio. Scheda nella home e riepilogo in notifica.
+- **Report PDF dei guadagni**: ogni rendita con prezzo e valore in euro del giorno,
+  depositi e prelievi, indirizzi completi (provenienza dei fondi e dichiarazione).
 - **Avvisi APY** dei pool (Beefy, Kamino, Jupiter, Aave, Spark e altri) dal loro link.
 - **Monitoraggio pool**: grafici di APY e liquidità e avvisi di rischio (TVL in calo,
   APY anomalo, contratti in pausa, possibili exploit, liquidità di nuovo disponibile).
 
 **Notifiche e avvisi**
-- Avvisi di prezzo sopra o sotto una soglia, avvisi in percentuale sulle 24 ore,
+- **Campanella** con tutte le notifiche degli ultimi 10 giorni, da segnare come lette o
+  cancellare.
+- Avvisi di prezzo sopra o sotto una soglia, **una volta o ricorrenti** (ogni 2 ore finché
+  non li spegni), avvisi sul patrimonio, avvisi in percentuale sulle 24 ore,
   allarme stablecoin (se USDT, USDC, DAI e simili si staccano da 1 dollaro),
   avvisi dei pool, promemoria backup, ore di silenzio.
 - **Notizie di attacchi hacker** a exchange, wallet e protocolli (spenta di default).
@@ -86,7 +96,8 @@ I dati restano sul tuo dispositivo; la sincronizzazione, se la vuoi, è cifrata.
   pioggia di monete, petali…) e musica di sottofondo.
 - Dimensione del testo regolabile, blocco con impronta o volto, importi nascosti.
 - Layout dedicati per **tablet** (anche in orizzontale) e **computer**.
-- Ogni funzione non essenziale si accende o si spegne in **Impostazioni › Funzioni**.
+- Ogni funzione non essenziale si accende o si spegne in **Impostazioni › Funzioni**,
+  con le funzioni simili raggruppate.
 
 ---
 
