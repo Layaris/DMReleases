@@ -83,7 +83,8 @@ Tocca **Compila**. L'app cerca etichette come *Nome*, *Cognome*, *nato/a a … i
 (linee ____, puntini, spazio dopo i due punti o sotto l'etichetta). Poi mostra i **Campi trovati** con
 i valori proposti (in alto scegli **con quale profilo** compilare): correggi quello che serve, togli la spunta a quello che non vuoi e tocca **Inserisci**.
 Niente viene inserito senza la tua conferma, e dopo puoi comunque spostare o eliminare ogni testo.
-Le caselle **Sì / No** e **M / F** (☐, [ ], ( )) compaiono come scelta: la spunta va sulla casella scelta.
+Le caselle **Sì / No** e **M / F** (☐, [ ], ( ), prima o dopo l'opzione) compaiono come scelta: la spunta va
+sulla casella scelta.
 
 Con i **PDF compilabili** (moduli con caselle già pronte) tocca **Campi › Dal profilo**: si compilano i campi
 vuoti che l'app riconosce dal nome.

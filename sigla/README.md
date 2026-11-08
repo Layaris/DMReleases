@@ -10,9 +10,10 @@ Gratis per uso personale, senza account e senza pubblicità: documenti e firme r
 [Tutte le app](../README.md)
 
 <p align="center">
-  <img src="grafica/screenshot/telefono-firme.png" alt="Libreria delle firme (dati di esempio)" width="220">
-  <img src="grafica/screenshot/telefono-campi-trovati.png" alt="Campi del modulo trovati e valori proposti (dati di esempio)" width="220">
-  <img src="grafica/screenshot/telefono-modulo-compilato.png" alt="Modulo compilato e firmato (dati di esempio)" width="220">
+  <img src="grafica/screenshot/telefono-modulo-compilato.png" alt="Modulo compilato con evidenziatore e penna (dati di esempio)" width="200">
+  <img src="grafica/screenshot/telefono-campi-trovati.png" alt="Campi del modulo trovati e valori proposti dal profilo (dati di esempio)" width="200">
+  <img src="grafica/screenshot/telefono-firme.png" alt="Libreria delle firme e delle sigle (dati di esempio)" width="200">
+  <img src="grafica/screenshot/telefono-documenti.png" alt="Documenti con i recenti (dati di esempio)" width="200">
 </p>
 
 <sub>Nomi, codici e indirizzi nelle immagini sono **dati di esempio**. Sigla è il nome provvisorio dell'app.</sub>
@@ -94,6 +95,7 @@ con **Documenti › Apri PDF**.
 ## Grafica
 
 Nella cartella [`grafica/`](grafica/): icona (192, 512 e versione adattiva), logo a 1024 px e
-[screenshot](grafica/screenshot/) di telefono e computer, in tema chiaro e scuro.
+[screenshot](grafica/screenshot/) di telefono e computer, in tema chiaro e scuro. Gli screenshot si rifanno
+in automatico con lo script `tool/screenshots/` di SIGLAPDF.
 
 Colori: blu penna `#2347D9`, inchiostro `#1B2A4A`, carta `#F6F7F9`.
