@@ -1,6 +1,12 @@
 # Novità di Multifolio
 <!-- changelog:next -->
 
+## 0.6.0 (build 18) – 07/11/2026
+
+- Prima pubblicazione
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.6.0-build18/multifolio-0.6.0-build18.apk)
+
 ## 0.6 — novembre 2026
 
 Prima versione pubblicata su DM Releases. Riassume tutto quello che è arrivato fino a

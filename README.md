@@ -24,7 +24,7 @@ e backup cifrati. Funziona su Android, iPhone, tablet e computer.
   · [Guida d'uso](multifolio/GUIDA.md) · [Novità](multifolio/CHANGELOG.md)
 
 <!-- multifolio:latest -->
-_Prima pubblicazione in preparazione._
+- **Android: 0.6.0 (build 18)** del 07/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.6.0-build18/multifolio-0.6.0-build18.apk) · [Novità](multifolio/CHANGELOG.md)
 <!-- /multifolio:latest -->
 <!-- /app:multifolio -->
 
@@ -43,6 +43,22 @@ sul dispositivo. App Android; su iPhone e computer si usa la web app.
 _Prima pubblicazione in preparazione._
 <!-- /packsnap:latest -->
 <!-- /app:packsnap -->
+
+<!-- app:sigla -->
+### <img src="sigla/grafica/icona-192.png" alt="" width="28" height="28" align="top"> Sigla
+
+Compila e firma PDF dal telefono o dal computer: firme disegnate, da foto o scritte, sigla su tutte
+le pagine, compilazione automatica dei moduli dai tuoi profili, modelli per i moduli ricorrenti,
+penna ed evidenziatore, backup cifrati. Senza account: documenti e firme restano sul dispositivo.
+Android, iPhone e [web app](https://dmsigla.pages.dev).
+
+- **Download, descrizione e guida:** cartella [`sigla/`](sigla/README.md)
+  · [Guida d'uso](sigla/GUIDA.md) · [Novità](sigla/CHANGELOG.md) · [Privacy](sigla/PRIVACY.md)
+
+<!-- sigla:latest -->
+_Prima pubblicazione in preparazione._
+<!-- /sigla:latest -->
+<!-- /app:sigla -->
 
 <!-- app:ripostia -->
 ### <img src="ripostia/grafica/icona-192.png" alt="" width="28" height="28" align="top"> Ripostia

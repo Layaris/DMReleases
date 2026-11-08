@@ -114,7 +114,7 @@ Tutte le versioni pubblicate sono anche nelle
 (tag `multifolio-v<versione>-build<N>`).
 
 <!-- multifolio:latest -->
-_Prima pubblicazione in preparazione._
+- **Android: 0.6.0 (build 18)** del 07/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.6.0-build18/multifolio-0.6.0-build18.apk) · [Novità](CHANGELOG.md)
 <!-- /multifolio:latest -->
 
 ## iPhone (IPA)

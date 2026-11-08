@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy di Sigla · DM Releases</title>
+  <meta name="description" content="Privacy di Sigla: documenti e firme restano sul dispositivo.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f5f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1018" media="(prefers-color-scheme: dark)">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../assets/sigla/icona-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/sigla/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/stile.css">
+  <style>
+    .tabella{border-collapse:collapse;width:100%;font-size:15px;margin:8px 0 16px}
+    .tabella th,.tabella td{border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);padding:8px 6px;text-align:left;vertical-align:top}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="../" aria-label="DM Releases, pagina principale">
+        <img class="brand-mark" src="../assets/dm.svg" alt="" width="32" height="32">
+        DM Releases
+      </a>
+      <nav aria-label="Sezioni">
+        <a href="./">Sigla</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="wrap" style="max-width:760px">
+        <h1>Privacy di Sigla</h1>
+        <p class="muted">Aggiornata all'8 novembre 2026.</p>
+        <p>Sigla è fatta per tenere i tuoi documenti con te.</p>
+        <h2>Cosa resta sul tuo dispositivo</h2>
+        <p>PDF, firme, sigle, profilo e impostazioni restano <strong>solo sul tuo dispositivo</strong>. Non ci sono account,
+          server dell'app, pubblicità o statistiche di utilizzo. I PDF che apri non vengono copiati da nessuna parte:
+          l'app salva solo il file esportato, dove scegli tu.</p>
+        <p>I backup sono file <code>.sigla</code> che crei tu, cifrati con la tua password (AES-256-GCM, chiave ricavata con PBKDF2).</p>
+        <h2>Quando l'app usa internet</h2>
+        <table class="tabella">
+          <thead><tr><th>Quando</th><th>Dove</th><th>Cosa viene inviato</th></tr></thead>
+          <tbody><tr><td>Riconoscimento AI dei campi (facoltativo, con la tua chiave)</td><td>Anthropic (API Claude)</td><td>Le immagini delle pagine del documento che scegli di analizzare</td></tr>
+            <tr><td>Avviso di nuova versione (solo app Android, al massimo una volta al giorno, si spegne in Impostazioni)</td><td>GitHub (raw.githubusercontent.com)</td><td>Nulla di tuo: l'app scarica il file pubblico <code>sigla/latest.json</code> con il numero dell'ultima versione</td></tr></tbody>
+        </table>
+        <p>Prima di ogni invio l'app chiede quale motore usare e ricorda che le pagine vengono inviate. Il riconoscimento
+          predefinito funziona sul dispositivo, senza internet; sull'app Android anche la lettura dei documenti
+          scansionati (OCR di Google ML Kit) avviene sul telefono e non invia nulla. La chiave API resta sul dispositivo e non finisce mai nei backup.</p>
+        <p>I recenti (ultimi PDF esportati) e i modelli restano sul dispositivo; i recenti non vanno nei backup. La web app è un sito statico su Cloudflare Pages: Cloudflare riceve la normale richiesta della pagina, ma i documenti che apri non lasciano il browser.</p>
+        <h2>Permessi</h2>
+        <ul>
+          <li><strong>Fotocamera e galleria:</strong> per lo scanner e per fotografare o importare la firma.</li>
+          <li><strong>Impronta / Face ID:</strong> solo se attivi il blocco delle firme.</li>
+          <li><strong>Internet:</strong> per il riconoscimento AI, se lo usi, e per l'avviso di nuova versione.</li>
+        </ul>
+        <h2>Cancellare i dati</h2>
+        <p>Disinstalla l'app, oppure, per la web app, cancella i dati del sito dal browser.</p>
+        <h2>Contatti</h2>
+        <p>Per domande apri una segnalazione nella pagina <a href="https://github.com/Layaris/DMReleases/issues">Issues</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><a href="../">← Tutte le app</a></p>
+      <p>Sigla è un'app personale, condivisa così com'è e <strong>senza alcuna garanzia</strong>. Sigla è il nome provvisorio.</p>
+      <p>Questo sito non usa cookie né sistemi di tracciamento. © DM Releases. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

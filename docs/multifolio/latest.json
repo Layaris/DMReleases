@@ -1,8 +1,10 @@
 {
   "app": "multifolio",
-  "version": null,
-  "build": null,
-  "date": null,
-  "apk": null,
-  "ipa": null
+  "version": "0.6.0",
+  "build": 18,
+  "date": "2026-11-07T15:36:18Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.6.0-build18/multifolio-0.6.0-build18.apk",
+  "ipa": null,
+  "commit": "0c2f223",
+  "notes": "Prima pubblicazione"
 }
