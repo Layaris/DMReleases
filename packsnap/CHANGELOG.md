@@ -14,6 +14,9 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 - Backup automatico in una cartella del telefono (funzione extra, Android)
 - Avviso quando esce una versione nuova, con il link per scaricarla (Android)
 - Versione e numero di build in Impostazioni
+- Oggetti con più pezzi più comodi: tocchi il numero "0/4" per scegliere quanti portarne, e l'app ti dice
+  "Ne hai 4: 2 qui · 2 nel trolley" o ti avvisa se ne stai portando più di quanti ne hai
+- Quando scegli gli oggetti per una valigia puoi indicare subito quanti pezzi metterne
 - Il nome suggerito per un oggetto arriva nella lingua dell'app (anche in inglese)
 - Backup più sicuri: backup automatico e manuale non si disturbano più, i backup troppo grandi per la
   password vengono segnalati subito, e un ripristino interrotto non lascia foto a metà
