@@ -1,7 +1,10 @@
 {
   "app": "ripostia",
-  "version": null,
-  "build": null,
-  "date": null,
-  "apk": null
+  "version": "0.2.0",
+  "build": 2000,
+  "date": "2026-11-08T06:25:14Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.0/Ripostia-0.2.0.apk",
+  "commit": "53b3def",
+  "sha256": "59c7171b9975790c3860af6c6b897f736f973d1376a125744379bed09c6b4589",
+  "notes": "Assistente «Chiedi»: intent validati (Zod), parser locale offline per domande/comandi comuni, risoluzione su dati reali, chiarimenti con scelte rapide, conferma del piano, «Correggi interpretazione», \nListe su più righe divise per luoghi (intestazioni annidate, punti elenco, «5x», «(2)», «: 4 pz»), lette in locale; righe libere all'AI con limiti alti (fino a 150 azioni, 8000 caratteri); tipologia e\nVoce: registrazione con timer e durata massima, conversione WAV 16 kHz, trascrizione modificabile, invio automatico opzionale.\nFoto: ritaglio sul dispositivo, riconoscimento AI (marca solo se leggibile), illustrazioni AI facoltative etichettate, icone per categoria.\nCodici a barre: verifica EAN, scansione (BarcodeDetector), lookup Open Food/Beauty/Products Facts con attribuzione, «Cerca sul web».\nScansione video beta: estrazione locale fotogrammi/audio, qualità Economica/Bilanciata/Alta, deduplica, revisione e ritaglio candidati.\nMobili: scrivania con cassettiera laterale, armadio con ante e appendiabiti, cassettiera alta, mensole a muro, scarpiera, mobile cucina.\nAnimazioni leggere (cassetto che si apre, oggetti che compaiono, evidenziazione), disattivabili.\n+1/−1 nelle liste, etichette QR stampabili e lettore QR, pagina Storico, filtri/ordinamento, stima durata, «Segna acquistato».\nPromemoria scadenze (notifiche native), controllo aggiornamenti Android da Layaris/DMReleases/ripostia/latest.json.\nImpostazioni › Funzioni, Accessibilità (vista compatta, testo grande), pagina Privacy"
 }

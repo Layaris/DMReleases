@@ -26,7 +26,7 @@ Gratis, senza account, senza pubblicità: i dati restano sul tuo dispositivo.
 | **Computer** | Web app dal browser | In preparazione |
 
 <!-- ripostia:latest -->
-_Prima pubblicazione in preparazione._
+- **Android: 0.2.0** del 08/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.0/Ripostia-0.2.0.apk) · [Novità](CHANGELOG.md)
 <!-- /ripostia:latest -->
 
 ### Android (APK)
