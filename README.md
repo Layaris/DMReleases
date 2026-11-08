@@ -60,6 +60,21 @@ _Prima pubblicazione in preparazione._
 <!-- /sigla:latest -->
 <!-- /app:sigla -->
 
+<!-- app:ripostia -->
+### <img src="ripostia/grafica/icona-192.png" alt="" width="28" height="28" align="top"> Ripostia
+
+Inventario personale visuale: stanze, mobili, cassetti e oggetti con foto, quantità e consumi. Dici o scrivi dove hai
+messo le cose e Ripostia le sistema; ritrovi tutto con la ricerca. Senza account, i dati restano sul dispositivo.
+Funzioni AI facoltative con la tua chiave.
+
+- **Download, descrizione e privacy:** cartella [`ripostia/`](ripostia/README.md)
+  · [Novità](ripostia/CHANGELOG.md) · [Privacy](ripostia/PRIVACY.md)
+
+<!-- ripostia:latest -->
+_Prima pubblicazione in preparazione._
+<!-- /ripostia:latest -->
+<!-- /app:ripostia -->
+
 ---
 
 ## Installare un'app su Android (file APK)
