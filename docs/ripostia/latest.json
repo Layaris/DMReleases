@@ -1,0 +1,10 @@
+{
+  "app": "ripostia",
+  "version": "0.2.0",
+  "build": 2000,
+  "date": "2026-11-08T06:25:14Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.0/Ripostia-0.2.0.apk",
+  "commit": "53b3def",
+  "sha256": "59c7171b9975790c3860af6c6b897f736f973d1376a125744379bed09c6b4589",
+  "notes": "Assistente «Chiedi»: comandi e domande in italiano, scritti o a voce, con piano da confermare e Annulla dell'intero comando.\nDomande e comandi semplici funzionano anche senza AI e offline («dove sono i lacci?», «quanti spazzolini ho usato quest'anno?»).\nCorrezioni e miglioramenti di sicurezza\nMicrofono al centro della barra: registri, l'AI trascrive, correggi il testo e invii.\nListe scritte o incollate già divise per luoghi (intestazione + un oggetto per riga, anche annidate): l'app le legge da sola, senza AI.\nL'assistente crea i luoghi mancanti (es. scrivania e cassetto) e apre il cassetto con l'oggetto evidenziato.\nFoto: ritaglio, riconoscimento con AI (senza marche inventate), icone per categoria, illustrazioni AI facoltative.\nCodice a barre: lettura con la fotocamera (dove supportata) e ricerca su Open Food/Beauty/Products Facts.\nScansione video (beta, spenta di default): pochi fotogrammi e audio analizzati dopo la registrazione, candidati da confermare.\nNuovi mobili: scrivania con cassettiera, armadio con appendiabiti, cassettiera alta, mensole, scarpiera, mobile cucina. Animazioni leggere.\n+1/−1 direttamente dalle liste, etichette QR stampabili per i cassetti e lettore QR, storico completo con «Vedi tutto».\nStima «durerà circa…», «Segna acquistato», promemoria scadenze, filtri e ordinamento, vista compatta e testo grande.\nControllo aggiornamenti Android da DMReleases e pagina Privacy."
+}

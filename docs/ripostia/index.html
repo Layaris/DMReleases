@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ripostia · DM Releases</title>
+  <meta name="description" content="Ripostia: inventario personale visuale. Dici o scrivi dove metti le cose e le ritrovi subito. Web app, Android, novità e privacy.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f3f5f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1018" media="(prefers-color-scheme: dark)">
+  <meta name="referrer" content="no-referrer">
+  <link rel="icon" href="../assets/ripostia/icona-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="../assets/ripostia/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/stile.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="../" aria-label="DM Releases, pagina principale">
+        <img class="brand-mark" src="../assets/dm.svg" alt="" width="32" height="32">
+        DM Releases
+      </a>
+      <nav aria-label="Sezioni">
+        <a href="#novita">Novità</a>
+        <a href="#funzioni">Funzioni</a>
+        <a href="#galleria">Immagini</a>
+        <a href="#scarica">Scarica</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="app-title">
+            <img src="../assets/ripostia/icona-192.png" alt="Icona di Ripostia" width="72" height="72" style="border-radius:18px">
+            <h1>Ripostia</h1>
+          </div>
+          <p class="lead">Ogni cosa al suo posto. Basta chiedere.</p>
+          <p class="muted">Inventario personale visuale: stanze, mobili, cassetti e oggetti, con foto, quantità e consumi.
+            Gratis, senza account e senza pubblicità: i dati restano sul tuo dispositivo.</p>
+          <div class="buttons" id="scarica">
+            <a class="btn btn-primary" href="https://ripostia.pages.dev" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-3a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8ZM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4ZM4.3 14a8.2 8.2 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3Zm.8 2h3a15.7 15.7 0 0 0 1.4 3.6A8 8 0 0 1 5.1 16Zm3-8h-3a8 8 0 0 1 4.4-3.6C8.9 5.5 8.4 6.7 8.1 8ZM12 20c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4Zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4Zm.2 5.6c.6-1.1 1.1-2.3 1.4-3.6h3a8 8 0 0 1-4.4 3.6Zm1.8-5.6a16.5 16.5 0 0 0 0-4h3.4a8.2 8.2 0 0 1 0 4h-3.4Z"/></svg>
+              Apri la web app
+            </a>
+            <a class="btn" id="btn-android" aria-disabled="true" role="link">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.6 9.5 19.4 6.4a.4.4 0 0 0-.7-.4l-1.8 3.1a11 11 0 0 0-9.8 0L5.3 6a.4.4 0 0 0-.7.4l1.8 3.1A10.3 10.3 0 0 0 1 18h22a10.3 10.3 0 0 0-5.4-8.5ZM7 15.3a1.2 1.2 0 1 1 0-2.5 1.2 1.2 0 0 1 0 2.5Zm10 0a1.2 1.2 0 1 1 0-2.5 1.2 1.2 0 0 1 0 2.5Z"/></svg>
+              <span>Scarica per Android <span class="sub" data-stato>· In arrivo</span></span>
+            </a>
+          </div>
+          <p class="status" id="versione">Su iPhone e computer usa la web app: su iPhone si aggiunge alla schermata Home da Safari.</p>
+        </div>
+        <div class="hero-shot">
+          <img src="../assets/ripostia/screenshot/telefono-cassetto.png" alt="Cassetto aperto con l'oggetto evidenziato (dati di esempio)" width="540" height="1168">
+          <img src="../assets/ripostia/screenshot/telefono-chiedi.png" alt="Assistente: piano da confermare (dati di esempio)" width="540" height="1168">
+        </div>
+      </div>
+    </section>
+
+    <section id="novita">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Novità dell'ultima versione</h2>
+          <p class="muted" id="novita-titolo">Si aggiorna da solo a ogni nuova versione.</p>
+        </div>
+        <div class="card">
+          <ul id="novita-lista" class="steps" style="list-style:disc;padding-left:22px">
+            <li>Prima pubblicazione in preparazione.</li>
+          </ul>
+          <p style="margin-top:10px"><a href="https://github.com/Layaris/DMReleases/blob/main/ripostia/CHANGELOG.md">Tutte le versioni</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="funzioni">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Cosa fa</h2>
+          <p class="muted">Le funzioni AI sono facoltative e usano la tua chiave (Gemini, NanoGPT o compatibile), che resta sul telefono.
+            Senza AI si usa tutto a mano, e domande e liste semplici funzionano lo stesso.</p>
+        </div>
+        <div class="grid">
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-3.1a7 7 0 0 0 6-6.9h-2Z"/></svg></span>Parla o scrivi</h3>
+            <p>«Metti una maglietta nel cassetto in alto a sinistra della scrivania»: Ripostia ti mostra cosa farà, tu confermi, e apre il cassetto con l'oggetto evidenziato. Annulla sempre possibile.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5h2v2H3V5Zm4 0h14v2H7V5ZM3 11h2v2H3v-2Zm4 0h14v2H7v-2Zm-4 6h2v2H3v-2Zm4 0h14v2H7v-2Z"/></svg></span>Liste già divise</h3>
+            <p>Incolla una lista con il luogo come intestazione e un oggetto per riga: la inserisce tutta in un colpo, anche senza AI.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 7 12 2 3 7v10l9 5 9-5V7Zm-9 2.2L6.5 6.3 12 3.3l5.5 3-5.5 2.9ZM5 8.5l6 3.3v7.4l-6-3.3V8.5Zm8 10.7v-7.4l6-3.3v7.4l-6 3.3Z"/></svg></span>Casa disegnata</h3>
+            <p>Stanze, mobili, cassetti e ripiani illustrati e cliccabili: scrivania, armadio con appendiabiti, cassettiere, scaffali, valigia e altri.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M10 2a8 8 0 1 0 4.9 14.3l5.4 5.4 1.4-1.4-5.4-5.4A8 8 0 0 0 10 2Zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12Z"/></svg></span>Ritrovi tutto</h3>
+            <p>«Dove sono i lacci grigi?»: ricerca per nome, marca, sinonimi e note, con il percorso completo. Funziona anche offline.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 21V3h2v16h16v2H3Zm4-4V10h3v7H7Zm5 0V6h3v11h-3Zm5 0v-4h3v4h-3Z"/></svg></span>Consumi veri</h3>
+            <p>Conta solo ciò che usi davvero (spostare o vendere non è un consumo): totali per mese e anno, cose da ricomprare, scadenze, «durerà circa…».</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 9a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm8-3h-3.2L15 4H9L7.2 6H4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Z"/></svg></span>Foto e codici a barre</h3>
+            <p>Foto con ritaglio, riconoscimento con AI senza marche inventate, ricerca del codice a barre nei cataloghi aperti, icone per categoria.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 3h8v8H3V3Zm2 2v4h4V5H5Zm8-2h8v8h-8V3Zm2 2v4h4V5h-4ZM3 13h8v8H3v-8Zm2 2v4h4v-4H5Zm8-2h2v2h-2v-2Zm2 2h2v2h-2v-2Zm2-2h4v2h-4v-2Zm0 4h2v4h-4v-2h2v-2Zm-4 2h2v2h-2v-2Zm6 0h2v2h-2v-2Z"/></svg></span>Etichette QR</h3>
+            <p>Stampi un QR per ogni cassetto o scatola: inquadrandolo, Ripostia apre subito quel contenitore.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-2-4ZM12 19a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm3-10H5V5h10v4Z"/></svg></span>Backup in un file</h3>
+            <p>Tutto in un unico file, anche protetto da password, con promemoria periodico. Ripristino verificato.</p>
+          </div>
+          <div class="card feature">
+            <h3><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 6h11a1 1 0 0 1 1 1v3.5l4-2.5v8l-4-2.5V17a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Z"/></svg></span>Video (sperimentale)</h3>
+            <p>Registri un video breve mostrando gli oggetti: dopo, l'AI propone l'elenco da confermare. Spento all'inizio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galleria">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Immagini</h2>
+          <p class="muted">Gli oggetti nelle immagini sono <strong>dati di esempio</strong>. Tocca un'immagine per ingrandirla.</p>
+        </div>
+        <div class="gallery phone" tabindex="0" aria-label="Immagini sul telefono, scorri di lato">
+          <figure><a href="../assets/ripostia/screenshot/telefono-cassetto.png"><img loading="lazy" src="../assets/ripostia/screenshot/telefono-cassetto.png" alt="Cassetto aperto" width="540" height="1168"></a><figcaption>Cassetto aperto</figcaption></figure>
+          <figure><a href="../assets/ripostia/screenshot/telefono-chiedi.png"><img loading="lazy" src="../assets/ripostia/screenshot/telefono-chiedi.png" alt="Chiedi: piano da confermare" width="540" height="1168"></a><figcaption>Chiedi: piano da confermare</figcaption></figure>
+          <figure><a href="../assets/ripostia/screenshot/telefono-armadio.png"><img loading="lazy" src="../assets/ripostia/screenshot/telefono-armadio.png" alt="Armadio" width="540" height="1168"></a><figcaption>Armadio</figcaption></figure>
+          <figure><a href="../assets/ripostia/screenshot/telefono-voce.png"><img loading="lazy" src="../assets/ripostia/screenshot/telefono-voce.png" alt="Voce: testo da correggere" width="540" height="1168"></a><figcaption>Voce: testo da correggere</figcaption></figure>
+          <figure><a href="../assets/ripostia/screenshot/telefono-foto-ai.png"><img loading="lazy" src="../assets/ripostia/screenshot/telefono-foto-ai.png" alt="Foto riconosciuta con AI" width="540" height="1168"></a><figcaption>Foto riconosciuta con AI</figcaption></figure>
+          <figure><a href="../assets/ripostia/screenshot/telefono-comando-ai.png"><img loading="lazy" src="../assets/ripostia/screenshot/telefono-comando-ai.png" alt="Comando con l'AI" width="540" height="1168"></a><figcaption>Comando con l'AI</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap two">
+        <div class="card">
+          <h3>Importante: i dati sono tuoi</h3>
+          <ol class="steps">
+            <li>Inventario e foto restano <strong>solo sul dispositivo</strong>: niente cloud, niente account.</li>
+            <li>Salva regolarmente un <strong>backup</strong> (Impostazioni › Backup) su Drive o sul PC: l'app te lo ricorda.</li>
+            <li>Sulla web app, cancellare i dati del browser cancella anche l'inventario.</li>
+            <li>Aggiornamenti Android: installa il nuovo APK sopra il vecchio, i dati restano. L'app ti avvisa da sola.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Documenti</h3>
+          <p class="muted">Tutto quello che serve per iniziare e restare aggiornati.</p>
+          <div class="buttons">
+            <a class="btn" href="https://github.com/Layaris/DMReleases/blob/main/ripostia/CHANGELOG.md">Novità</a>
+            <a class="btn" href="https://github.com/Layaris/DMReleases/blob/main/ripostia/PRIVACY.md">Privacy</a>
+            <a class="btn" href="https://github.com/Layaris/DMReleases/tree/main/ripostia">Pagina su GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><a href="../">← Tutte le app</a></p>
+      <p>Ripostia è un'app personale, condivisa così com'è e <strong>senza alcuna garanzia</strong>.</p>
+      <p>Questo sito non usa cookie né sistemi di tracciamento. © DM Releases. Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Legge latest.json (stessa cartella: copia di ripostia/latest.json scritta dalla pubblicazione
+    // automatica di Ripostia). Versione, data, link all'APK e novità si aggiornano da soli a ogni versione.
+    (function () {
+      function data(iso) {
+        var d = iso ? new Date(iso) : null;
+        return d && !isNaN(d) ? d.toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+      }
+      function sicuro(url) { return typeof url === 'string' && /^https:\/\/github\.com\/Layaris\/DMReleases\/releases\/download\/ripostia-/.test(url) ? url : null; }
+      fetch('latest.json', { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+          if (!d || d.app !== 'ripostia' || !d.version) return;
+          var apk = sicuro(d.apk);
+          if (apk) {
+            var b = document.getElementById('btn-android');
+            b.href = apk;
+            b.removeAttribute('aria-disabled');
+            b.removeAttribute('role');
+            b.querySelector('[data-stato]').textContent = '· ' + d.version;
+          }
+          var v = document.getElementById('versione');
+          v.textContent = 'Ultima versione Android: ' + d.version + (d.date ? ' del ' + data(d.date) : '') +
+            '. Su iPhone e computer usa la web app (sempre aggiornata).';
+          document.getElementById('novita-titolo').textContent = 'Versione ' + d.version + (d.date ? ' · ' + data(d.date) : '');
+          if (typeof d.notes === 'string' && d.notes.trim()) {
+            var ul = document.getElementById('novita-lista');
+            ul.textContent = '';
+            d.notes.split('\n').forEach(function (n) {
+              if (!n.trim()) return;
+              var li = document.createElement('li');
+              li.textContent = n.trim();   // testo puro: nessun HTML dal file
+              ul.appendChild(li);
+            });
+          }
+        })
+        .catch(function () {});
+    })();
+  </script>
+</body>
+</html>

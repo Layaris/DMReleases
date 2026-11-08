@@ -5,7 +5,8 @@ Inventario personale visuale: stanze, mobili, cassetti e oggetti, con foto, quan
 Dici o scrivi «metti una maglietta nel cassetto in alto a sinistra della scrivania» e Ripostia la sistema.
 Gratis, senza account, senza pubblicità: i dati restano sul tuo dispositivo.
 
-[Novità (changelog)](CHANGELOG.md) · [Privacy](PRIVACY.md) · [Tutte le app](../README.md)
+[Apri la web app](https://ripostia.pages.dev) · [Novità (changelog)](CHANGELOG.md) · [Privacy](PRIVACY.md) ·
+[Pagina sul sito](https://layaris.github.io/DMReleases/ripostia/) · [Tutte le app](../README.md)
 
 <p align="center">
   <img src="grafica/screenshot/telefono-chiedi.png" alt="Assistente: piano da confermare" width="220">
@@ -22,8 +23,8 @@ Gratis, senza account, senza pubblicità: i dati restano sul tuo dispositivo.
 | | Come | Stato |
 |---|---|---|
 | **Android** | File APK da installare | Vedi sotto |
-| **iPhone** | Web app da Safari | In preparazione |
-| **Computer** | Web app dal browser | In preparazione |
+| **iPhone** | Web app da Safari (Condividi › Aggiungi alla schermata Home) | Disponibile: [ripostia.pages.dev](https://ripostia.pages.dev) |
+| **Computer** | Web app dal browser | Disponibile: [ripostia.pages.dev](https://ripostia.pages.dev) |
 
 <!-- ripostia:latest -->
 - **Android: 0.2.0** del 08/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.0/Ripostia-0.2.0.apk) · [Novità](CHANGELOG.md)

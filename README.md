@@ -67,6 +67,7 @@ Inventario personale visuale: stanze, mobili, cassetti e oggetti con foto, quant
 messo le cose e Ripostia le sistema; ritrovi tutto con la ricerca. Senza account, i dati restano sul dispositivo.
 Funzioni AI facoltative con la tua chiave.
 
+- **Usala subito nel browser:** [ripostia.pages.dev](https://ripostia.pages.dev)
 - **Download, descrizione e privacy:** cartella [`ripostia/`](ripostia/README.md)
   · [Novità](ripostia/CHANGELOG.md) · [Privacy](ripostia/PRIVACY.md)
 
