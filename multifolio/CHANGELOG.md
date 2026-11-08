@@ -1,6 +1,14 @@
 # Novità di Multifolio
 <!-- changelog:next -->
 
+## 0.7.1 (build 21) – 08/11/2026
+
+- Aave USDCn con prezzo, APY su Optimism, ordine per APY e rete dei token negli asset
+- Saldi Solana anche dal sito, USDCn con prezzo e APY, Pool DeFi nel menu, notizie su iPhone, collegamenti rinominabili
+- 0.7.1: correzioni dal collaudo (ripristino dei backup vecchi, notifiche, avvisi ricorrenti sul sito, ricerca)
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.7.1-build21/multifolio-0.7.1-build21.apk)
+
 ## 0.7.0 (build 19) – 08/11/2026
 
 - App più semplice (audit applicato), notifiche segnabili come lette, versione 0.7.0

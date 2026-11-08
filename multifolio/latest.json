@@ -1,10 +1,10 @@
 {
   "app": "multifolio",
-  "version": "0.7.0",
-  "build": 19,
-  "date": "2026-11-08T07:07:24Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.7.0-build19/multifolio-0.7.0-build19.apk",
+  "version": "0.7.1",
+  "build": 21,
+  "date": "2026-11-08T11:39:08Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.7.1-build21/multifolio-0.7.1-build21.apk",
   "ipa": null,
-  "commit": "653197e",
-  "notes": "App più semplice (audit applicato), notifiche segnabili come lette, versione 0.7.0\nCampanella con lo storico delle notifiche, report PDF dei guadagni dai pool, audit delle funzioni\nAvvisi di prezzo: una volta o ricorrenti (ogni 2 ore finché non li spegni)\nGuadagni dai pool: portafogli a scelta, indirizzi a confronto, scheda nella home\nTest indipendenti dai tempi della macchina e STATO del quarto giro\nPool: un solo giro per avvisi APY e monitoraggio, niente corse sull'elenco\nTest delle migrazioni da ogni versione del database\nSTATO dopo il terzo giro e sottotitolo di Avanzate"
+  "commit": "7c70a53",
+  "notes": "Aave USDCn con prezzo, APY su Optimism, ordine per APY e rete dei token negli asset\nSaldi Solana anche dal sito, USDCn con prezzo e APY, Pool DeFi nel menu, notizie su iPhone, collegamenti rinominabili\n0.7.1: correzioni dal collaudo (ripristino dei backup vecchi, notifiche, avvisi ricorrenti sul sito, ricerca)"
 }
