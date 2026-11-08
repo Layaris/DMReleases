@@ -9,18 +9,18 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 ## 0.2.0 – 08/11/2026
 
-- Assistente «Chiedi»: intent validati (Zod), parser locale offline per domande/comandi comuni, risoluzione su dati reali, chiarimenti con scelte rapide, conferma del piano, «Correggi interpretazione», 
-- Liste su più righe divise per luoghi (intestazioni annidate, punti elenco, «5x», «(2)», «: 4 pz»), lette in locale; righe libere all'AI con limiti alti (fino a 150 azioni, 8000 caratteri); tipologia e
-- Voce: registrazione con timer e durata massima, conversione WAV 16 kHz, trascrizione modificabile, invio automatico opzionale.
-- Foto: ritaglio sul dispositivo, riconoscimento AI (marca solo se leggibile), illustrazioni AI facoltative etichettate, icone per categoria.
-- Codici a barre: verifica EAN, scansione (BarcodeDetector), lookup Open Food/Beauty/Products Facts con attribuzione, «Cerca sul web».
-- Scansione video beta: estrazione locale fotogrammi/audio, qualità Economica/Bilanciata/Alta, deduplica, revisione e ritaglio candidati.
-- Mobili: scrivania con cassettiera laterale, armadio con ante e appendiabiti, cassettiera alta, mensole a muro, scarpiera, mobile cucina.
-- Animazioni leggere (cassetto che si apre, oggetti che compaiono, evidenziazione), disattivabili.
-- +1/−1 nelle liste, etichette QR stampabili e lettore QR, pagina Storico, filtri/ordinamento, stima durata, «Segna acquistato».
-- Promemoria scadenze (notifiche native), controllo aggiornamenti Android da Layaris/DMReleases/ripostia/latest.json.
-- Impostazioni › Funzioni, Accessibilità (vista compatta, testo grande), pagina Privacy, microfono al centro della barra.
-- L'annullamento di aggiunte, spostamenti e correzioni riusciti falliva (transazione IndexedDB chiusa troppo presto).
+- Assistente «Chiedi»: comandi e domande in italiano, scritti o a voce, con piano da confermare e Annulla dell'intero comando.
+- Domande e comandi semplici funzionano anche senza AI e offline («dove sono i lacci?», «quanti spazzolini ho usato quest'anno?»).
 - Correzioni e miglioramenti di sicurezza
+- Microfono al centro della barra: registri, l'AI trascrive, correggi il testo e invii.
+- Liste scritte o incollate già divise per luoghi (intestazione + un oggetto per riga, anche annidate): l'app le legge da sola, senza AI.
+- L'assistente crea i luoghi mancanti (es. scrivania e cassetto) e apre il cassetto con l'oggetto evidenziato.
+- Foto: ritaglio, riconoscimento con AI (senza marche inventate), icone per categoria, illustrazioni AI facoltative.
+- Codice a barre: lettura con la fotocamera (dove supportata) e ricerca su Open Food/Beauty/Products Facts.
+- Scansione video (beta, spenta di default): pochi fotogrammi e audio analizzati dopo la registrazione, candidati da confermare.
+- Nuovi mobili: scrivania con cassettiera, armadio con appendiabiti, cassettiera alta, mensole, scarpiera, mobile cucina. Animazioni leggere.
+- +1/−1 direttamente dalle liste, etichette QR stampabili per i cassetti e lettore QR, storico completo con «Vedi tutto».
+- Stima «durerà circa…», «Segna acquistato», promemoria scadenze, filtri e ordinamento, vista compatta e testo grande.
+- Controllo aggiornamenti Android da DMReleases e pagina Privacy.
 
 [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.0/Ripostia-0.2.0.apk)

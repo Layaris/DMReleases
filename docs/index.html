@@ -94,6 +94,23 @@
           </div>
         </article>
 
+        <article class="card app-card" style="margin-top:14px">
+          <img class="logo" src="assets/ripostia/icona-192.png" alt="Icona di Ripostia" width="88" height="88" style="border-radius:20px">
+          <div>
+            <h3 style="font-size:24px">Ripostia</h3>
+            <p class="muted">Inventario personale visuale: stanze, mobili, cassetti e oggetti. Dici o scrivi dove metti le cose
+              e le ritrovi subito, con foto, consumi, etichette QR e backup. Senza account: i dati restano sul dispositivo.</p>
+            <ul class="tags" aria-label="Disponibile per">
+              <li>Web app</li><li>Android</li><li>iPhone (web app)</li><li>Computer</li>
+            </ul>
+            <div class="buttons">
+              <a class="btn btn-primary" href="ripostia/">Scopri Ripostia</a>
+              <a class="btn" href="https://ripostia.pages.dev" rel="noopener">Apri la web app</a>
+            </div>
+            <p class="status" id="rp-stato">Prima pubblicazione in preparazione.</p>
+          </div>
+        </article>
+
         <p class="note" style="margin-top:14px">Altre app arriveranno qui.</p>
       </div>
     </section>
@@ -170,6 +187,14 @@
         if (d.apk && d.version) parti.push('Android ' + d.version + (d.build ? ' (build ' + d.build + ')' : ''));
         if (d.ipa && d.ipa_version) parti.push('iPhone ' + d.ipa_version);
         if (parti.length) document.getElementById('sg-stato').textContent = 'Ultima versione: ' + parti.join(' · ');
+      })
+      .catch(function () {});
+    // Stato dell'ultima versione di Ripostia, se pubblicata (ripostia/latest.json).
+    fetch('ripostia/latest.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || d.app !== 'ripostia' || !d.apk || !d.version) return;
+        document.getElementById('rp-stato').textContent = 'Ultima versione: Android ' + d.version + ' · web app sempre aggiornata';
       })
       .catch(function () {});
   </script>
