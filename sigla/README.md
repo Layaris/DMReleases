@@ -25,7 +25,13 @@ Gratis per uso personale, senza account e senza pubblicità: documenti e firme r
 |---|---|---|
 | **Android** | File APK da installare | Prima pubblicazione in preparazione |
 | **iPhone** | File IPA da installare con SideStore, AltStore o Sideloadly | Prima pubblicazione in preparazione |
-| **Computer** | Web app dal browser | Non ancora online |
+| **Computer** | [Web app](https://layaris.github.io/SIGLAPDF/) dal browser, senza installare nulla | In attivazione |
+
+### Computer (web app)
+
+Apri **[https://layaris.github.io/SIGLAPDF/](https://layaris.github.io/SIGLAPDF/)** in Chrome, Edge, Firefox o Safari. Funziona anche offline dopo la prima
+apertura e i dati restano nel browser. Nel browser mancano solo il blocco con impronta, lo scanner e
+la lettura delle scansioni sul telefono (OCR).
 
 ### Android (APK)
 
@@ -33,7 +39,8 @@ L'ultima versione è nella pagina [Releases](https://github.com/Layaris/DMReleas
 con il nome **Sigla · build N** e il file `Sigla-build-N.apk`. Serve Android 7.0 o più recente.
 Come si installa: [Installare un'app su Android](../README.md#installare-unapp-su-android-file-apk).
 
-**Aggiornare:** scarica il nuovo APK e installalo sopra la versione che hai: i dati restano.
+**Aggiornare:** quando esce una nuova versione l'app lo segnala in *Documenti* (si spegne in
+*Impostazioni*). Scarica il nuovo APK e installalo sopra la versione che hai: i dati restano.
 Prima di un aggiornamento importante fai un backup da *Impostazioni › Esporta backup*.
 
 ### iPhone (IPA)
@@ -58,19 +65,26 @@ con **Documenti › Apri PDF**.
   - **Scrivi** il tuo nome e diventa una firma in corsivo.
 - **PDF**: apri un file, oppure **scansiona** un documento con la fotocamera (correzione della prospettiva)
   o crea un PDF **da immagini**. Su Android anche da *Apri con* e *Condividi*.
-- Aggiungi **firma, sigla, testo, data di oggi, spunta ✓ e croce ✗**. Trascini, ridimensioni, elimini.
+- Aggiungi **firma, sigla, firma con la data sotto, testo, data di oggi, spunta ✓ e croce ✗**.
+  Trascini, ridimensioni, elimini.
+- **Penna** per scrivere o disegnare a mano libera ed **evidenziatore** giallo.
+- **Zoom con due dita** (o Ctrl + rotellina) e **miniature** delle pagine per saltare dove serve.
 - **Sigla tutte le pagine** in un tocco, nella stessa posizione.
 - **Moduli**: compila i campi dei PDF compilabili e riempili dal tuo **profilo** (nome, codice fiscale,
-  indirizzo…).
+  indirizzo…). **Più profili** (es. il tuo e quello di un familiare): scegli quale usare quando compili.
+- Riconosce anche le caselle **Sì / No** e **M / F** e mette la spunta su quella giusta.
 - **Compila automaticamente** anche i moduli "di carta" (*Nome: ______*): l'app trova le etichette e
   propone i tuoi dati. Vedi sempre un'**anteprima** e confermi tu: niente viene inserito da solo.
   Sull'app Android funziona anche con i **documenti scansionati**: il telefono legge il testo della
   pagina da solo, senza internet. In alternativa c'è il **riconoscimento AI** facoltativo, con una tua
   chiave Anthropic.
 - **Esporta PDF**: firme e testi diventano parte del documento (non modificabili), poi salvi o condividi.
+- **Recenti**: gli ultimi PDF esportati restano in *Documenti*, da riaprire o ricondividere.
+- **Modelli**: salva dove metti firma, testi e data in un modulo che compili spesso; la volta dopo
+  Sigla riconosce il modulo e propone di rimettere tutto al suo posto.
 - **Backup** in un unico file `.sigla` protetto da password, con *unisci* o *sostituisci* all'import.
 - **Blocco firme** con impronta, Face ID o PIN (Android e iPhone).
-- Tema chiaro e scuro, interfaccia in italiano.
+- Tema chiaro e scuro, interfaccia in **italiano e inglese**.
 
 > La firma grafica apposta con Sigla è una **firma elettronica semplice** (Regolamento eIDAS),
 > non una firma digitale qualificata.

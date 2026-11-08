@@ -31,6 +31,11 @@ Nella sezione **Profilo** inserisci i dati che scrivi spesso nei moduli: nome, c
 nascita, codice fiscale, indirizzo, CAP, città, provincia, telefono, email. Con **Aggiungi un dato** puoi
 salvare anche altro (per esempio il numero della patente). Si salva da solo mentre scrivi.
 
+Puoi avere **più profili** (per esempio *Io* e *Mamma*): tocca **+ Profilo** in alto; con ⋮ lo rinomini o
+lo elimini. Quando compili un modulo scegli quale profilo usare.
+
+La lingua (italiano, inglese o quella del sistema) si cambia in **Impostazioni › Lingua**.
+
 ## 4. Aprire un documento
 
 Nella sezione **Documenti**:
@@ -47,9 +52,12 @@ Nell'editor la barra in basso contiene gli strumenti (su telefono scorre di lato
 | Strumento | Cosa fa |
 |---|---|
 | **Firma** / **Sigla** | Inserisce una firma o una sigla salvata (se ne hai più di una, la scegli) |
+| **Firma e data** | Firma con la data di oggi sotto, in un solo elemento |
 | **Testo** | Inserisce un testo libero |
 | **Data** | Inserisce la data di oggi (gg/mm/aaaa) |
 | **Spunta** / **Croce** | Inseriscono ✓ e ✗ |
+| **Penna** | Scrivi o disegni a mano libera; scegli colore e spessore, poi **Fatto** |
+| **Evidenzia** | Riquadro giallo trasparente da mettere sopra il testo |
 | **Sigla tutte** | Mette la sigla predefinita in basso a destra su ogni pagina |
 | **Campi** | Compila i campi dei PDF compilabili (compare solo se il PDF ne ha) |
 | **Compila** | Trova i campi del modulo e propone i dati del profilo |
@@ -58,15 +66,24 @@ Nell'editor la barra in basso contiene gli strumenti (su telefono scorre di lato
 - **Trascina** un elemento per spostarlo; il cerchio in basso a destra lo **ridimensiona**; la **×** rossa lo elimina.
 - Con un elemento selezionato compaiono **Modifica** (testi), **Blu**/**Nero**, **Su tutte** (copia
   l'elemento su tutte le pagine) ed **Elimina**. Tocca un punto vuoto o **Fatto** per deselezionare.
-- **Annulla** e **Ripeti** in alto annullano qualsiasi modifica. Con − e + cambi lo zoom.
+- **Annulla** e **Ripeti** in alto annullano qualsiasi modifica.
+- **Zoom**: due dita sulla pagina, i pulsanti − e +, oppure Ctrl + rotellina sul computer.
+  **Pagine** (o la colonna a sinistra sugli schermi larghi) mostra le miniature per saltare a una pagina.
+
+### Modelli
+
+Se compili spesso lo stesso modulo, dopo aver messo firma, testi e data tocca **⋮ › Salva come modello**.
+Quando riapri lo stesso modulo compare in alto la proposta di applicarlo; oppure **⋮ › Applica un modello**.
+I modelli si gestiscono in **Impostazioni › Modelli salvati**.
 
 ### Compilazione automatica
 
 Tocca **Compila**. L'app cerca etichette come *Nome*, *Cognome*, *nato/a a … il …*, *Codice fiscale*,
 *Residente in*, *Via*, *CAP*, *Telefono*, *Email*, *Luogo e data*, *Firma* e lo spazio vuoto accanto
 (linee ____, puntini, spazio dopo i due punti o sotto l'etichetta). Poi mostra i **Campi trovati** con
-i valori proposti: correggi quello che serve, togli la spunta a quello che non vuoi e tocca **Inserisci**.
+i valori proposti (in alto scegli **con quale profilo** compilare): correggi quello che serve, togli la spunta a quello che non vuoi e tocca **Inserisci**.
 Niente viene inserito senza la tua conferma, e dopo puoi comunque spostare o eliminare ogni testo.
+Le caselle **Sì / No** e **M / F** (☐, [ ], ( )) compaiono come scelta: la spunta va sulla casella scelta.
 
 Con i **PDF compilabili** (moduli con caselle già pronte) tocca **Campi › Dal profilo**: si compilano i campi
 vuoti che l'app riconosce dal nome.
@@ -90,11 +107,15 @@ Tocca **Esporta PDF**. Firme, testi e campi diventano parte del documento e non 
 Poi scegli **Salva** (sul computer parte il download) oppure **Condividi**. Il nuovo file si chiama come
 l'originale con `_firmato` alla fine; l'originale non viene toccato.
 
+Gli ultimi PDF esportati compaiono in **Documenti › Recenti**: toccane uno per riaprirlo, o usa ⋮ per
+condividerlo, salvarlo o toglierlo. Restano solo sul dispositivo; si spengono in
+**Impostazioni › Documenti e backup › Ricorda i PDF esportati**.
+
 ## 7. Backup
 
 In **Impostazioni › Backup**:
 
-- **Esporta backup** crea un file `.sigla` con firme, profilo e impostazioni, protetto da una password
+- **Esporta backup** crea un file `.sigla` con firme, profili, modelli e impostazioni, protetto da una password
   (almeno 8 caratteri). **Conserva la password**: senza non si può aprire.
 - **Importa backup**: scegli il file, poi **Unisci** (aggiunge le firme che mancano e completa i campi
   vuoti del profilo) o **Sostituisci** (usa solo i dati del backup).

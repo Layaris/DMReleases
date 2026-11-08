@@ -20,4 +20,10 @@ Prima pubblicazione:
   non compilabili con anteprima e conferma; su Android anche dai documenti scansionati (OCR sul
   telefono, senza internet); riconoscimento AI facoltativo
 - Esportazione del PDF con firme e testi fissati, salva o condividi
-- Backup cifrato con password, blocco firme con impronta o Face ID, tema chiaro e scuro
+- Firma con la data sotto in un solo elemento; penna a mano libera ed evidenziatore
+- Zoom con due dita e miniature delle pagine
+- Più profili da scegliere quando compili; caselle Sì/No e M/F riconosciute e spuntate
+- Recenti (ultimi PDF esportati) e modelli per i moduli che ritornano
+- Backup cifrato con password (anche profili e modelli), blocco firme con impronta o Face ID,
+  tema chiaro e scuro
+- Italiano e inglese; avviso di nuova versione nell'app Android; web app per il computer
