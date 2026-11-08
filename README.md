@@ -56,7 +56,7 @@ Android, iPhone e [web app](https://dmsigla.pages.dev).
   · [Guida d'uso](sigla/GUIDA.md) · [Novità](sigla/CHANGELOG.md) · [Privacy](sigla/PRIVACY.md)
 
 <!-- sigla:latest -->
-**Ultima versione:** [Android 1.0.0 (build 4)](https://github.com/Layaris/DMReleases/releases/download/sigla-build-4/Sigla-build-4.apk) del 8 novembre 2026.
+**Ultima versione:** [Android 1.0.0 (build 5)](https://github.com/Layaris/DMReleases/releases/download/sigla-build-5/Sigla-build-5.apk) del 8 novembre 2026.
 <!-- /sigla:latest -->
 <!-- /app:sigla -->
 
