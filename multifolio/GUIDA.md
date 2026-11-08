@@ -69,7 +69,8 @@ Previdenza, Crediti e debiti, Beni) oppure **Scegli tu nome e colore**.
 ordinare e filtrare gli asset o eliminarlo (vengono eliminati anche asset e movimenti).
 L'ordine dei portafogli si cambia dalla home con **Riordina**.
 
-**Conti:** l'icona della banca in alto nella home apre l'elenco dei conti. L'elenco di
+**Conti:** si aprono da **Strumenti › Conti** (tasto in alto nella home; sul computer nel
+menu a sinistra). L'elenco di
 banche, exchange e wallet proposti si gestisce in **Impostazioni › Portafogli ed elenchi ›
 Banche, exchange e wallet**.
 
@@ -144,7 +145,7 @@ sbagliato, tocca il movimento per correggerlo o eliminarlo; molte azioni si poss
 
 Con i collegamenti i saldi si aggiornano da soli. Accendi prima **Saldi da indirizzi**
 e/o **Sincronizzazione exchange** in **Impostazioni › Funzioni**, poi apri
-**Impostazioni › Funzioni › Collegamenti automatici › Nuovo collegamento**.
+**Strumenti › Collegamenti automatici › Nuovo collegamento**.
 
 ### Indirizzi pubblici
 
@@ -186,12 +187,13 @@ dove sei):
 2. **Un portafoglio per pagina** – scorri a destra per aprirli uno dopo l'altro.
 3. **Monitoraggio pool** – l'ultima pagina, se la funzione è accesa.
 
-In alto trovi: l'**occhio** per nascondere gli importi (utile in pubblico), la **lente**
-per cercare, l'icona della **banca** per i conti e quella delle **impostazioni**.
+In alto trovi: la **campanella** delle notifiche, l'**occhio** per nascondere gli importi
+(utile in pubblico), la **lente** per cercare, **Strumenti** (conti, storico, report, pool
+e gli altri strumenti accesi) e le **impostazioni**.
 Il tasto **+ Aggiungi** aggiunge un asset o un movimento al volo.
 
-Altri elementi che possono comparire nella home: indice **Fear & Greed**, campanello
-delle **notizie** (se accese), guadagno sul totale, rendimento per periodo.
+Altri elementi che possono comparire nella home: indice **Fear & Greed**, scheda
+**Guadagni dai pool** (oggi, settimana, mese), guadagno sul totale, rendimento per periodo.
 Quando il patrimonio tocca un nuovo massimo l'app festeggia il **record**.
 
 ## 7. Andamento, analisi e grafici
@@ -214,7 +216,7 @@ in **Impostazioni › Backup e sincronizzazione** puoi usare **Ricostruisci stor
 
 ## 8. Obiettivi
 
-Apri **Obiettivi** (dalla home, dall'analisi o da **Impostazioni › Funzioni**) e tocca
+Apri **Strumenti › Obiettivi** (o tocca l'obiettivo nella home) e tocca
 **Nuovo obiettivo**: dai un nome (es. *Casa*), l'importo e, se vuoi, una scadenza.
 Multifolio mostra il progresso sul totale dei portafogli inclusi e **stima quando ci
 arrivi** al ritmo attuale (servono almeno 7 giorni di storico). Quando raggiungi un
@@ -225,37 +227,65 @@ obiettivo partono fuochi d'artificio o coriandoli, se gli effetti sono accesi.
 Per stipendio, affitto o piani di accumulo: quando aggiungi un movimento scegli **Ripeti**
 ogni settimana, mese o anno. I movimenti vengono registrati **da soli** alla data
 prevista, anche se apri l'app qualche giorno dopo. L'elenco è in
-**Impostazioni › Funzioni › Movimenti ricorrenti**.
+**Strumenti › Movimenti ricorrenti**, dove se ne aggiungono anche di nuovi.
 
 ## 10. Ribilanciamento
 
-In **Impostazioni › Funzioni › Ribilanciamento** scegli quanto vuoi in ogni categoria
+In **Strumenti › Ribilanciamento** scegli quanto vuoi in ogni categoria
 (il totale deve fare 100%, oppure tocca **Usa quella attuale**) e una tolleranza:
 l'app ti dice **quanto spostare** per tornare in equilibrio. È solo un calcolo: non
 esegue operazioni.
 
 ## 11. Report PDF e riepilogo di fine anno
 
-- **Report mensile PDF** (**Impostazioni › Funzioni**): un PDF con totale, variazione del
-  mese, grafico, ripartizione per categoria e portafoglio, asset principali e obiettivi.
-  Scegli il mese e salvalo o condividilo.
+Tutti i report sono in **Strumenti › Report ed esportazioni**:
+
+- **Report del patrimonio**: un PDF con totale, variazione, grafico, ripartizione per
+  categoria e portafoglio, asset principali e obiettivi. Scegli un mese o un anno, anche
+  passati, e salvalo o condividilo.
 - **Riepilogo di fine anno**: i valori al 31 dicembre per conto e per paese, in PDF o CSV.
   Utile come promemoria per la dichiarazione dei redditi (non sostituisce il
   commercialista).
+- **Guadagni dai pool**: vedi il capitolo successivo.
+- **Movimenti in CSV**: esportazione e importazione (anche da Delta).
 
 ## 12. Pool DeFi e monitoraggio
 
+Tutto quello che riguarda i pool è in **Strumenti › Pool DeFi**.
+
+### Guadagni dai pool
+
+Con gli indirizzi collegati (capitolo 5), ogni lettura registra gli interessi maturati nei
+depositi (Aave, Spark, Jupiter Lend, Kamino, vault Beefy). **Guadagni dai pool** mostra
+quanto hai guadagnato oggi, per settimana e per mese, anche nei periodi passati:
+
+- il **totale** di tutti i tuoi indirizzi e, sotto, **ogni indirizzo** e **ogni pool** con
+  quanto c'è depositato e il **rendimento annuo stimato**; tocca un indirizzo per vedere solo
+  il suo;
+- dal tasto in alto scegli quali portafogli contare: di default **anche quelli esclusi dal
+  totale**, così segui i pool senza metterli nel patrimonio mostrato;
+- la scheda **Guadagni dai pool** nella home (si può nascondere dallo stesso tasto);
+- il **riepilogo nelle notifiche**, giornaliero, settimanale o mensile all'ora che scegli;
+- il **report PDF dei guadagni**: periodo e indirizzi a scelta, ogni rendita con data,
+  quantità, prezzo e valore in euro di quel giorno, depositi e prelievi, indirizzi completi
+  con il link all'explorer. Serve per la provenienza dei fondi e la dichiarazione (è un
+  documento di supporto, non una consulenza fiscale).
+
+I guadagni si contano dalla prima lettura dell'indirizzo in Multifolio: prima l'app non ha
+i saldi giorno per giorno. Gli interessi crescono nel saldo senza una transazione propria,
+per questo nel report non hanno un codice di transazione.
+
 ### Avvisi pool APY
 
-1. Accendi **Avvisi pool APY** in **Impostazioni › Funzioni**.
-2. Apri **Impostazioni › Notifiche › Avvisi pool APY**.
+1. Accendi **Pool seguiti** in **Impostazioni › Funzioni**.
+2. Apri **Strumenti › Pool DeFi › Avvisi APY**.
 3. Incolla il **link del pool** copiato dal sito del protocollo (Beefy, Kamino, Jupiter,
    Aave, Spark, Compound, Benqi, DefiLlama…) oppure **Scegli dai pool consigliati**.
 4. Imposta le soglie **sopra** e/o **sotto** e ogni quanto controllare.
 
 ### Monitoraggio pool
 
-Con **Monitoraggio pool DeFi** acceso, l'ultima pagina della home mostra i pool scelti
+**Strumenti › Pool DeFi › Monitoraggio** (e l'ultima pagina della home) mostra i pool scelti
 con APY, liquidità (TVL) e utilizzo. Tocca un pool per aprirne i **grafici** e gli
 **avvisi di rischio**: TVL in calo, APY anomalo, contratti in pausa, possibili exploit,
 poca liquidità o **liquidità di nuovo disponibile**. Puoi ordinare i pool per APY o
@@ -264,51 +294,60 @@ pool**. Sull'app iPhone è disponibile anche un widget con i pool monitorati.
 
 ## 13. Notifiche e avvisi
 
-Tutto in **Impostazioni › Notifiche**:
+La **campanella** in alto nella home raccoglie tutte le notifiche di Multifolio arrivate su
+quel dispositivo negli **ultimi 10 giorni** (poi si cancellano da sole). Tocca una notifica
+per segnarla come letta, scorrila di lato per cancellarla; dal menu **Segna tutte come
+lette** e **Cancella le lette**.
 
-- **Avvisi di prezzo** – apri un asset, tocca **⋯** e scegli **Avviso di prezzo**:
-  notifica quando il prezzo supera o scende sotto una soglia.
+Le impostazioni sono in **Impostazioni › Notifiche**, con lo stato di ogni avviso:
+
+- **Avvisi di prezzo** – da **Strumenti › Avvisi di prezzo** o da un asset (**⋯ › Avviso di
+  prezzo**): scegli **Sale sopra** o **Scende sotto** e **Una volta** (scatta e si spegne)
+  oppure **Ricorrente** (ti riavvisa ogni 2 ore finché il prezzo resta oltre la soglia).
+  Nell'elenco ogni avviso ha un interruttore per spegnerlo o riaccenderlo.
 - **Avvisi in percentuale** – quando un asset che hai sale o scende di molto in 24 ore
   (scegli la variazione minima).
 - **Allarme stablecoin** – se USDT, USDC, DAI o simili si staccano da 1 dollaro.
-- **Avvisi pool APY** e **Soglie del monitoraggio pool** – vedi sopra.
+- **Avvisi sul patrimonio** – soglie sul totale, variazione forte del giorno, riepilogo
+  settimanale (spenti di default).
+- **Pool DeFi** – avvisi APY, soglie del monitoraggio e riepilogo dei guadagni.
 - **Notizie di attacchi hacker** – **spenta di default**. Accendila in
-  **Impostazioni › Funzioni**: un pannello raccoglie gli attacchi recenti a exchange,
-  wallet e protocolli crypto (Google News e DefiLlama, ogni 15 minuti) e una notifica
-  apre la notizia. Puoi scegliere tutti gli attacchi o solo quelli che riguardano
+  **Impostazioni › Funzioni**: un pannello (dalla campanella) raccoglie gli attacchi recenti
+  a exchange, wallet e protocolli crypto (Google News e DefiLlama, ogni 15 minuti) e una
+  notifica apre la notizia. Puoi scegliere tutti gli attacchi o solo quelli che riguardano
   *i tuoi* exchange, wallet, crypto e protocolli. Gli avvisi di possibili exploit dei
   pool monitorati arrivano comunque, anche con le notizie spente.
 - **Promemoria backup** – ti avvisa se non salvi un backup da troppo tempo.
 - **Ore di silenzio** – di notte le notifiche arrivano senza suono né vibrazione.
 - **Prova una notifica** – per controllare che i permessi siano a posto.
 
-Con l'app aperta i prezzi si controllano ogni 20 secondi; sul telefono un controllo in
-background circa ogni 15 minuti tiene vivi avvisi e widget.
+Con l'app aperta i prezzi si controllano ogni 20 secondi; sul telefono Android un controllo
+in background circa ogni 15 minuti tiene vivi avvisi e widget.
 **Web app:** per ricevere gli avvisi a sito chiuso accendi **Notifiche ad app chiusa**
 in **Impostazioni › Funzioni** (su iPhone prima aggiungi il sito alla schermata Home).
 
 ## 14. Impostazioni › Funzioni
 
-Ogni funzione non essenziale si **accende o spegne** qui; spenta, sparisce dall'app.
-Le funzioni sono divise in gruppi:
+Ogni funzione non essenziale si **accende o spegne** qui; spenta, sparisce dall'app (i dati
+restano e tornano quando la riaccendi). Le funzioni sono divise in gruppi; alcune voci
+raccolgono più funzioni insieme: l'interruttore le accende o spegne tutte e un tocco sulla
+riga apre la pagina per sceglierle una per una.
 
-- **Analisi** – Andamento e grafici, Guadagno sul totale, Guadagno nei portafogli,
-  Rendimento negli asset, Rendimento per periodo, Confronto con un riferimento,
-  Mappa di calore, Mini grafici nei portafogli, Ribilanciamento.
-- **Crypto e DeFi** – Saldi da indirizzi, Sincronizzazione exchange, Posizioni DeFi e
-  APY, Avvisi pool APY, Monitoraggio pool DeFi, Notizie di attacchi hacker (spenta di
-  default), Indice Fear & Greed.
-- **Strumenti e automazioni** – Obiettivi, Report PDF, Avvisi di prezzo, Movimenti
-  ricorrenti, Foto sui movimenti, Widget nella Home, Storico dei movimenti, Immagine da
-  condividere, Riepilogo di fine anno, Profili.
-- **Effetti speciali** – vedi [Temi ed effetti](#15-temi-ed-effetti).
-- **Musica di sottofondo** – rilassante o per la concentrazione (brano e volume in
-  **Impostazioni › Avanzate**).
+- **Analisi** – Andamento e grafici, Mostra guadagni e **Analisi avanzate** (rendimento per
+  periodo, confronto con un riferimento, mappa di calore, mini grafici, ribilanciamento).
+- **Crypto e DeFi** – Saldi da indirizzi, Sincronizzazione exchange, **Posizioni DeFi e
+  guadagni**, **Pool seguiti** (avvisi APY e monitoraggio), Notizie di attacchi hacker (spenta
+  di default), Indice Fear & Greed.
+- **Strumenti e automazioni** – Obiettivi, Report PDF, Avvisi di prezzo, Avvisi sul
+  patrimonio, Movimenti ricorrenti, Foto sui movimenti, Widget nella Home, Storico dei
+  movimenti, Immagine da condividere, Riepilogo di fine anno, Profili, Avviso aggiornamenti.
+- **Effetti speciali** – un interruttore per tutti e la scelta uno per uno, vedi
+  [Temi ed effetti](#15-temi-ed-effetti).
+- **Musica di sottofondo** – rilassante o per la concentrazione, con volume.
 
-Da qui si aprono anche gli strumenti accesi (Collegamenti, Storico, Ribilanciamento,
-Obiettivi, Report, Riepilogo di fine anno, Monitoraggio pool, Notizie, Ricorrenti).
-Ogni pagina delle impostazioni ha **Ripristina predefiniti**; la casella **Cerca nelle
-impostazioni** trova subito qualsiasi voce.
+Gli strumenti accesi si aprono dalla pagina **Strumenti** (tasto in alto nella home, menu a
+sinistra sul computer). Ogni pagina delle impostazioni ha **Ripristina predefiniti**; la
+casella **Cerca nelle impostazioni** trova subito qualsiasi voce.
 
 ## 15. Temi ed effetti
 
