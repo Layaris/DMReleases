@@ -9,6 +9,10 @@ Qui c'è la storia delle versioni. Le versioni sono pubblicate nella pagina
 
 ## Prossima versione (in preparazione)
 
+- Nessuna novità per ora
+
+## build-4 · 8 novembre 2026
+
 Prima pubblicazione:
 
 - Firme e sigle illimitate: disegno a mano con pressione dello stilo, import da foto con scontorno

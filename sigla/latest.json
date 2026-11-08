@@ -1,8 +1,8 @@
 {
   "app": "sigla",
-  "version": null,
-  "build": null,
-  "date": null,
-  "apk": null,
+  "version": "1.0.0",
+  "build": 4,
+  "date": "2026-11-08",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/sigla-build-4/Sigla-build-4.apk",
   "ipa": null
 }
