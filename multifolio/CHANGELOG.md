@@ -1,6 +1,19 @@
 # Novità di Multifolio
 <!-- changelog:next -->
 
+## 0.7.0 (build 19) – 08/11/2026
+
+- App più semplice (audit applicato), notifiche segnabili come lette, versione 0.7.0
+- Campanella con lo storico delle notifiche, report PDF dei guadagni dai pool, audit delle funzioni
+- Avvisi di prezzo: una volta o ricorrenti (ogni 2 ore finché non li spegni)
+- Guadagni dai pool: portafogli a scelta, indirizzi a confronto, scheda nella home
+- Test indipendenti dai tempi della macchina e STATO del quarto giro
+- Pool: un solo giro per avvisi APY e monitoraggio, niente corse sull'elenco
+- Test delle migrazioni da ogni versione del database
+- STATO dopo il terzo giro e sottotitolo di Avanzate
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.7.0-build19/multifolio-0.7.0-build19.apk)
+
 ## 0.6.0 (build 18) – 07/11/2026
 
 - Prima pubblicazione
