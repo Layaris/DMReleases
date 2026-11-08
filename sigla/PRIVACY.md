@@ -33,7 +33,7 @@ Non usare l'AI per documenti che non vuoi condividere.
 I **Recenti** (ultimi PDF esportati) e i **modelli** restano sul dispositivo; i recenti non vanno
 nei backup e si possono spegnere e cancellare in *Impostazioni*.
 
-La **web app** è un sito statico ospitato da GitHub Pages: GitHub riceve la normale richiesta della
+La **web app** è un sito statico ospitato da Cloudflare Pages: Cloudflare riceve la normale richiesta della
 pagina (come per qualsiasi sito), ma i documenti che apri non lasciano mai il browser.
 
 ## Permessi

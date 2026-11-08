@@ -50,7 +50,7 @@ _Prima pubblicazione in preparazione._
 Compila e firma PDF dal telefono o dal computer: firme disegnate, da foto o scritte, sigla su tutte
 le pagine, compilazione automatica dei moduli dai tuoi profili, modelli per i moduli ricorrenti,
 penna ed evidenziatore, backup cifrati. Senza account: documenti e firme restano sul dispositivo.
-Android, iPhone e [web app](https://layaris.github.io/SIGLAPDF/).
+Android, iPhone e [web app](https://dmsigla.pages.dev).
 
 - **Download, descrizione e guida:** cartella [`sigla/`](sigla/README.md)
   · [Guida d'uso](sigla/GUIDA.md) · [Novità](sigla/CHANGELOG.md) · [Privacy](sigla/PRIVACY.md)
