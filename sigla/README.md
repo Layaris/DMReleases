@@ -23,9 +23,9 @@ Gratis per uso personale, senza account e senza pubblicità: documenti e firme r
 
 | | Come | Stato |
 |---|---|---|
-| **Android** | File APK da installare | Prima pubblicazione in preparazione |
-| **iPhone** | File IPA da installare con SideStore, AltStore o Sideloadly | Prima pubblicazione in preparazione |
-| **Computer** | [Web app](https://dmsigla.pages.dev) dal browser, senza installare nulla | In attivazione |
+| **Android** | File APK da installare | ✅ Disponibile ([ultima versione](https://github.com/Layaris/DMReleases/releases?q=sigla)) |
+| **iPhone** | File IPA da installare con SideStore, AltStore o Sideloadly | In preparazione |
+| **Computer** | [Web app](https://dmsigla.pages.dev) dal browser, senza installare nulla | ✅ Online |
 
 ### Computer (web app)
 
