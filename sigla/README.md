@@ -25,12 +25,12 @@ Gratis per uso personale, senza account e senza pubblicità: documenti e firme r
 |---|---|---|
 | **Android** | File APK da installare | Prima pubblicazione in preparazione |
 | **iPhone** | File IPA da installare con SideStore, AltStore o Sideloadly | Prima pubblicazione in preparazione |
-| **Computer** | [Web app](https://layaris.github.io/SIGLAPDF/) dal browser, senza installare nulla | In attivazione |
+| **Computer** | [Web app](https://dmsigla.pages.dev) dal browser, senza installare nulla | In attivazione |
 
 ### Computer (web app)
 
-Apri **[https://layaris.github.io/SIGLAPDF/](https://layaris.github.io/SIGLAPDF/)** in Chrome, Edge, Firefox o Safari. Funziona anche offline dopo la prima
-apertura e i dati restano nel browser. Nel browser mancano solo il blocco con impronta, lo scanner e
+Apri **[dmsigla.pages.dev](https://dmsigla.pages.dev)** in Chrome, Edge, Firefox o Safari: non si
+installa nulla e i dati restano nel browser. Si aggiorna da sola a ogni nuova versione. Nel browser mancano solo il blocco con impronta, lo scanner e
 la lettura delle scansioni sul telefono (OCR).
 
 ### Android (APK)
