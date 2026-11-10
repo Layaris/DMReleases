@@ -59,7 +59,8 @@ e si installerà come spiegato in [Installare un'app su iPhone](../README.md#ins
 ## Cosa fa
 
 - **Inventario con le foto.** Fotografi un oggetto e l'app toglie lo sfondo da sola (scontorno).
-  Puoi fotografare anche più oggetti insieme: l'app ne crea uno per ciascuno.
+  Puoi fotografare anche più oggetti insieme, oppure scegliere fino a 30 foto dalla galleria
+  (un oggetto per foto) e controllare i nomi in una lista sola.
   Se lo scontorno non è perfetto, lo correggi con il pennello.
 - **Nome suggerito.** L'app riconosce l'oggetto sul telefono, senza internet. Se vuoi, puoi usare
   Google Gemini con una tua chiave gratuita. Il suggerimento si applica solo se lo confermi.

@@ -13,7 +13,11 @@ se usi la web app). In basso ci sono quattro schede: **Inventario**, **Valigie**
 2. Scatta una foto o scegline una dalla galleria. L'app toglie lo sfondo da sola (scontorno).
    - Se lo scontorno non è perfetto puoi ritoccarlo con il pennello (cancella / ripristina),
      rifarlo oppure usare la foto originale.
-   - Puoi fotografare **più oggetti insieme**: l'app ne crea uno per ciascuno.
+   - Per aggiungere **più oggetti insieme** tocca il pulsante "Aggiungi più oggetti" in alto e scegli:
+     - **Una foto con più oggetti**: l'app li separa e ne crea uno per ciascuno;
+     - **Più foto dalla galleria**: scegli fino a 30 foto, un oggetto per foto. L'app le prepara una alla volta
+       e propone i nomi; nella lista tocchi un nome per riscriverlo e con **Avanti** sulla tastiera passi al
+       successivo. Poi **Salva** li aggiunge tutti insieme.
 3. L'app propone un nome. Lo usi solo se ti va bene, altrimenti lo scrivi tu.
 4. Scegli categoria, quantità, colore e note, poi salva.
 
