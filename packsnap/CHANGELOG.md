@@ -27,7 +27,15 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 - Web app: avviso "C'è una nuova versione · Ricarica" e funzionamento offline più affidabile
 - Correzioni: importi come "1,200" nella denuncia smarrimento, date nella settimana del cambio d'ora,
   icona di una categoria predefinita che bloccava il nome in una lingua
-- I dati dell'app non vengono più copiati in automatico sul cloud di Google: restano sul telefono
+- I dati dell'app non vengono più copiati in automatico sul cloud di Google né nel passaggio diretto
+  a un telefono nuovo: restano sul telefono (per cambiare telefono si usa il backup di PackSnap)
+- Correzioni nella checklist: "Annulla" funziona anche dopo essere usciti dal viaggio, cambiare quanti
+  pezzi porti non toglie più spunte, la festa "valigia pronta" parte solo quando spunti l'ultimo oggetto,
+  la modalità Ritorno non resta bloccata
+- Importi come "1.200,50" accettati nel valore degli oggetti; pesi e numeri nel formato della lingua
+- Backup più affidabili: ripristinare un backup non accende o spegne più da solo il backup automatico,
+  e il backup automatico non riempie la cartella se non riesce a cancellare quelli vecchi
+- Testi più leggibili con i caratteri molto grandi e sui telefoni stretti
 - Librerie aggiornate e molti più controlli automatici
 
 ## Versioni precedenti
