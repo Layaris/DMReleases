@@ -7,6 +7,24 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.2.1 – 10/11/2026
+
+- Puoi scegliere l'ordine di cassetti e ripiani (Esplora › Riordina): decide anche la loro posizione nel disegno del mobile.
+- Provider AI: dopo «Verifica connessione» l'app sceglie da sola un modello Gemini disponibile per il tuo account.
+- Correzioni e miglioramenti di sicurezza
+- App Android: aggiornamenti più affidabili e link di download che si aprono sempre nel browser.
+- iPhone: icona corretta quando aggiungi la web app alla schermata Home.
+- Scansione video: gestiti meglio i video registrati dal browser e i video lunghi.
+- Nella scheda di un oggetto puoi impostare o cambiare quando avvisarti che sta per finire.
+- L'assistente capisce meglio le frasi con l'apostrofo («nell'armadio», «sull'anta») e le quantità come «2 paia di calze».
+- Se usi un oggetto «da classificare» diventa consumabile da solo; eliminando un oggetto torni al suo cassetto.
+- Il microfono si spegne sempre quando esci dalla chat e, al tempo massimo, trascrive subito quello che hai detto.
+- Backup grandi più affidabili sul telefono; le date dei consumi fatti di notte non finiscono più sul giorno sbagliato.
+- Testi più leggibili (contrasto migliore, anche col tema scuro) e impostazioni che non si perdono toccandole in fretta.
+- Etichette QR: con tanti cassetti tutti i fogli si condividono o salvano in una volta sola.
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.1/Ripostia-0.2.1.apk)
+
 ## 0.2.0 – 08/11/2026
 
 - Assistente «Chiedi»: comandi e domande in italiano, scritti o a voce, con piano da confermare e Annulla dell'intero comando.

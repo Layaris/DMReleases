@@ -72,7 +72,7 @@ Funzioni AI facoltative con la tua chiave.
   · [Novità](ripostia/CHANGELOG.md) · [Privacy](ripostia/PRIVACY.md)
 
 <!-- ripostia:latest -->
-- **Android: 0.2.0** del 08/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.0/Ripostia-0.2.0.apk) · [Novità](ripostia/CHANGELOG.md)
+- **Android: 0.2.1** del 10/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.1/Ripostia-0.2.1.apk) · [Novità](ripostia/CHANGELOG.md)
 <!-- /ripostia:latest -->
 <!-- /app:ripostia -->
 
