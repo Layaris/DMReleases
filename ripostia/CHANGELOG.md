@@ -7,6 +7,15 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.2.2 – 11/11/2026
+
+- Gemini: se Google ritira il modello impostato, l'app ne sceglie da sola uno disponibile e riprova (niente più «modello non trovato»).
+- Puoi incollare un inventario intero diviso per sezioni (es. «SCRIVANIA — CASSETTO IN ALTO A SINISTRA»): l'app crea luoghi, contenitori e oggetti da sola.
+- Nelle liste capisce anche categorie («Elettronica e accessori»), note («— chiusa e sigillata», «(marca sconosciuta)») e scadenze («scadenza 04/2028»).
+- Liste lunghe più veloci ed economiche: all'AI vanno solo le righe che l'app non capisce da sola.
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.2/Ripostia-0.2.2.apk)
+
 ## 0.2.1 – 10/11/2026
 
 - Puoi scegliere l'ordine di cassetti e ripiani (Esplora › Riordina): decide anche la loro posizione nel disegno del mobile.

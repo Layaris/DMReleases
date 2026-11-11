@@ -1,10 +1,10 @@
 {
   "app": "ripostia",
-  "version": "0.2.1",
-  "build": 2001,
-  "date": "2026-11-10T06:57:18Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.1/Ripostia-0.2.1.apk",
-  "commit": "eb6bbd3",
-  "sha256": "4c7c9f955382f313f7f7f7b4ce6bf23190b75b82c67626ce9c7acd74c6da3014",
-  "notes": "Puoi scegliere l'ordine di cassetti e ripiani (Esplora › Riordina): decide anche la loro posizione nel disegno del mobile.\nProvider AI: dopo «Verifica connessione» l'app sceglie da sola un modello Gemini disponibile per il tuo account.\nCorrezioni e miglioramenti di sicurezza\nApp Android: aggiornamenti più affidabili e link di download che si aprono sempre nel browser.\niPhone: icona corretta quando aggiungi la web app alla schermata Home.\nScansione video: gestiti meglio i video registrati dal browser e i video lunghi.\nNella scheda di un oggetto puoi impostare o cambiare quando avvisarti che sta per finire.\nL'assistente capisce meglio le frasi con l'apostrofo («nell'armadio», «sull'anta») e le quantità come «2 paia di calze».\nSe usi un oggetto «da classificare» diventa consumabile da solo; eliminando un oggetto torni al suo cassetto.\nIl microfono si spegne sempre quando esci dalla chat e, al tempo massimo, trascrive subito quello che hai detto.\nBackup grandi più affidabili sul telefono; le date dei consumi fatti di notte non finiscono più sul giorno sbagliato.\nTesti più leggibili (contrasto migliore, anche col tema scuro) e impostazioni che non si perdono toccandole in fretta.\nEtichette QR: con tanti cassetti tutti i fogli si condividono o salvano in una volta sola."
+  "version": "0.2.2",
+  "build": 2002,
+  "date": "2026-11-11T11:05:41Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.2/Ripostia-0.2.2.apk",
+  "commit": "b81574e",
+  "sha256": "4f2c93c2e64ea10e17d1f028c985a307e692472768471631ba822efa179417e6",
+  "notes": "Gemini: se Google ritira il modello impostato, l'app ne sceglie da sola uno disponibile e riprova (niente più «modello non trovato»).\nPuoi incollare un inventario intero diviso per sezioni (es. «SCRIVANIA — CASSETTO IN ALTO A SINISTRA»): l'app crea luoghi, contenitori e oggetti da sola.\nNelle liste capisce anche categorie («Elettronica e accessori»), note («— chiusa e sigillata», «(marca sconosciuta)») e scadenze («scadenza 04/2028»).\nListe lunghe più veloci ed economiche: all'AI vanno solo le righe che l'app non capisce da sola."
 }
