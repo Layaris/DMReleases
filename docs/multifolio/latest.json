@@ -1,10 +1,10 @@
 {
   "app": "multifolio",
-  "version": "0.7.1",
-  "build": 21,
-  "date": "2026-11-08T11:39:08Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.7.1-build21/multifolio-0.7.1-build21.apk",
+  "version": "0.8.0",
+  "build": 22,
+  "date": "2026-11-11T05:25:44Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.0-build22/multifolio-0.8.0-build22.apk",
   "ipa": null,
-  "commit": "7c70a53",
-  "notes": "Aave USDCn con prezzo, APY su Optimism, ordine per APY e rete dei token negli asset\nSaldi Solana anche dal sito, USDCn con prezzo e APY, Pool DeFi nel menu, notizie su iPhone, collegamenti rinominabili\n0.7.1: correzioni dal collaudo (ripristino dei backup vecchi, notifiche, avvisi ricorrenti sul sito, ricerca)"
+  "commit": "9e8ca93",
+  "notes": "Versione 0.8.0\nNotizie di exploit: una notifica per notizia, non una per ogni pool\nNotifica dei guadagni dai pool: niente più \"guadagno del giorno\" come \"Ultima ora\"; file delle build per 7 giorni\nData di oggi nei movimenti, prezzo in $, wallet intero copiabile, \"Aggiungi conto\" completo, reti raggruppate, icone, Be\nPosti per wallet/rete/protocollo (v10), guadagni Aave/Lido/Ether.fi, Gnosis, CSV, «Scarta» definitivo\nAudit completo (23 difetti corretti), scanner pool Beta, conti espandibili, note leggibili, APY a 365 giorni\nSync: i record di un portafoglio cancellato non restano bloccati; STATO di fine sessione"
 }

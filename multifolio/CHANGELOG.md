@@ -1,6 +1,18 @@
 # Novità di Multifolio
 <!-- changelog:next -->
 
+## 0.8.0 (build 22) – 11/11/2026
+
+- Versione 0.8.0
+- Notizie di exploit: una notifica per notizia, non una per ogni pool
+- Notifica dei guadagni dai pool: niente più "guadagno del giorno" come "Ultima ora"; file delle build per 7 giorni
+- Data di oggi nei movimenti, prezzo in $, wallet intero copiabile, "Aggiungi conto" completo, reti raggruppate, icone, Be
+- Posti per wallet/rete/protocollo (v10), guadagni Aave/Lido/Ether.fi, Gnosis, CSV, «Scarta» definitivo
+- Audit completo (23 difetti corretti), scanner pool Beta, conti espandibili, note leggibili, APY a 365 giorni
+- Sync: i record di un portafoglio cancellato non restano bloccati; STATO di fine sessione
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.0-build22/multifolio-0.8.0-build22.apk)
+
 ## 0.7.1 (build 21) – 08/11/2026
 
 - Aave USDCn con prezzo, APY su Optimism, ordine per APY e rete dei token negli asset
