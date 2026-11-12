@@ -1,7 +1,8 @@
 # <img src="grafica/icona-192.png" alt="" width="40" height="40" align="top"> PackSnap
 
 **Fotografa i tuoi oggetti, scontornali e prepara la valigia con le checklist di viaggio.**
-Gratis, senza account, senza pubblicità: i tuoi dati restano sul telefono.
+Gratis e senza pubblicità. Senza account i tuoi dati restano sul telefono; se vuoi, la sincronizzazione
+online (facoltativa e cifrata) li porta anche sugli altri tuoi dispositivi.
 
 [Apri la web app](https://dmpacksnap.pages.dev) ·
 [Guida d'uso](GUIDA.md) ·

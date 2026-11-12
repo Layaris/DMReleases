@@ -17,6 +17,10 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 - Oggetti con più pezzi più comodi: tocchi il numero "0/4" per scegliere quanti portarne, e l'app ti dice
   "Ne hai 4: 2 qui · 2 nel trolley" o ti avvisa se ne stai portando più di quanti ne hai
 - Quando scegli gli oggetti per una valigia puoi indicare subito quanti pezzi metterne
+- Contenitori: un beauty case o un astuccio tiene dentro altri oggetti; in valigia entra con il suo
+  contenuto e nella checklist le cose dentro si spuntano una per una
+- Sincronizzazione online (funzione extra): gli stessi dati su più dispositivi con un account, tutto cifrato
+  con la tua password prima di partire
 - Più foto dalla galleria in una volta (fino a 30, un oggetto per foto): l'app propone i nomi e li
   correggi in una lista sola, passando da uno all'altro con "Avanti" sulla tastiera
 - Il nome suggerito per un oggetto arriva nella lingua dell'app (anche in inglese)

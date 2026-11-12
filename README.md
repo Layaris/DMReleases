@@ -32,8 +32,9 @@ e backup cifrati. Funziona su Android, iPhone, tablet e computer.
 ### <img src="packsnap/grafica/icona-192.png" alt="" width="28" height="28" align="top"> PackSnap
 
 Fotografa i tuoi oggetti, scontornali e prepara la valigia con le checklist di viaggio:
-valigie, viaggi, liste modello, etichetta con QR e backup. Senza account, i dati restano
-sul dispositivo. App Android; su iPhone e computer si usa la web app.
+valigie, viaggi, liste modello, contenitori, etichetta con QR e backup. Senza account i dati restano
+sul dispositivo; la sincronizzazione online è facoltativa e cifrata. App Android; su iPhone e computer
+si usa la web app.
 
 - **Usala subito nel browser:** [dmpacksnap.pages.dev](https://dmpacksnap.pages.dev)
 - **Download, descrizione e guida:** cartella [`packsnap/`](packsnap/README.md)

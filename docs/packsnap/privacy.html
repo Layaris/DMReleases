@@ -34,16 +34,27 @@
     <section>
       <div class="wrap" style="max-width:820px">
           <h1>Privacy di PackSnap</h1>
-          <p><em>Aggiornata al 7 novembre 2026.</em></p>
+          <p><em>Aggiornata al 12 novembre 2026.</em></p>
           <p>PackSnap è fatta per tenere i tuoi dati con te.</p>
           <h2>Cosa resta sul tuo dispositivo</h2>
-          <p>Oggetti, foto, valigie, liste, viaggi, documenti e impostazioni sono salvati <strong>solo sul tuo telefono</strong></p>
-          <p>(o nel tuo browser, se usi la web app). Non ci sono account, non ci sono server dell'app,</p>
-          <p>non ci sono pubblicità né statistiche di utilizzo.</p>
+          <p>Oggetti, foto, valigie, liste, viaggi, documenti e impostazioni sono salvati <strong>sul tuo telefono</strong>
+          (o nel tuo browser, se usi la web app). L'account non serve: senza la Sincronizzazione online
+          (spenta all'inizio) niente esce dal dispositivo, se non nei casi elencati sotto.
+          Non ci sono pubblicità né statistiche di utilizzo.</p>
           <p>I backup sono file che crei tu e salvi dove vuoi tu.</p>
+          <h2>Sincronizzazione online (facoltativa)</h2>
+          <p>Se la accendi (Impostazioni › Funzioni extra) e crei un account, i tuoi dati vanno anche sul server
+          della web app (Cloudflare), per averli uguali su più dispositivi:</p>
+          <ul>
+          <li>tutto viene <strong>cifrato sul tuo dispositivo con la tua password</strong> prima di partire (AES-256): il server conserva solo dati illeggibili e non conosce la password;</li>
+          <li>sul server ci sono la tua <strong>email</strong>, un'impronta della chiave d'accesso (non la password) e i dati cifrati; le foto online sono una <strong>copia ridotta</strong>, anche lei cifrata;</li>
+          <li>tema, lingua, funzioni extra e la chiave di Gemini <strong>non</strong> si sincronizzano;</li>
+          <li>se dimentichi la password i dati online non si possono aprire, nemmeno da chi gestisce il server (quelli sul tuo dispositivo restano);</li>
+          <li>da <strong>Impostazioni › Sincronizzazione</strong> puoi uscire da un dispositivo o <strong>cancellare l'account</strong>: con l'account si cancellano subito tutti i dati online.</li>
+          </ul>
           <h2>Quando l'app usa internet</h2>
           <p>Solo in questi casi, e solo con i dati indicati:</p>
-          <div style="overflow-x:auto"><table class="tabella"><tr><th>Quando</th><th>Dove</th><th>Cosa viene inviato</th></tr><tr><td>Riconoscimento con Gemini (facoltativo, con la tua chiave)</td><td>Google (Gemini API)</td><td>La foto dell'oggetto che scegli di riconoscere; per l'assistente, la descrizione del viaggio e nomi e categorie degli oggetti (mai le foto)</td></tr><tr><td>Import da video con Gemini (facoltativo)</td><td>Google (Gemini API)</td><td>Il video che scegli; viene cancellato dopo l'analisi</td></tr><tr><td>Meteo (funzione extra)</td><td>Open-Meteo</td><td>Il nome della destinazione e le date del viaggio</td></tr><tr><td>Avviso di nuova versione (app Android, si può spegnere)</td><td>GitHub</td><td>Una richiesta anonima alla pagina pubblica delle versioni</td></tr><tr><td>Scontorno nella web app</td><td>Il sito della web app</td><td>Il primo uso scarica il modello di scontorno (circa 44 MB); le foto restano nel browser</td></tr><tr><td>Scontorno su Android</td><td>Google Play Services</td><td>Il modello di scontorno di ML Kit si scarica sul telefono; le foto restano sul telefono</td></tr></table></div>
+          <div style="overflow-x:auto"><table class="tabella"><tr><th>Quando</th><th>Dove</th><th>Cosa viene inviato</th></tr><tr><td>Riconoscimento con Gemini (facoltativo, con la tua chiave)</td><td>Google (Gemini API)</td><td>La foto dell'oggetto che scegli di riconoscere; per l'assistente, la descrizione del viaggio e nomi e categorie degli oggetti (mai le foto)</td></tr><tr><td>Import da video con Gemini (facoltativo)</td><td>Google (Gemini API)</td><td>Il video che scegli; viene cancellato dopo l'analisi</td></tr><tr><td>Meteo (funzione extra)</td><td>Open-Meteo</td><td>Il nome della destinazione e le date del viaggio</td></tr><tr><td>Avviso di nuova versione (app Android, si può spegnere)</td><td>GitHub</td><td>Una richiesta anonima alla pagina pubblica delle versioni</td></tr><tr><td>Sincronizzazione online (funzione extra, con account)</td><td>Cloudflare (server della web app)</td><td>Email e dati cifrati sul dispositivo con la tua password, foto ridotte e cifrate</td></tr><tr><td>Scontorno nella web app</td><td>Il sito della web app</td><td>Il primo uso scarica il modello di scontorno (circa 44 MB); le foto restano nel browser</td></tr><tr><td>Scontorno su Android</td><td>Google Play Services</td><td>Il modello di scontorno di ML Kit si scarica sul telefono; le foto restano sul telefono</td></tr></table></div>
           <p>La chiave di Gemini resta nel portachiavi sicuro del telefono e non finisce mai nei backup.</p>
           <p>Con il piano gratuito di Gemini, fuori dall'Unione Europea Google può usare i contenuti inviati</p>
           <p>per migliorare i suoi servizi: non fotografare documenti o dati personali con l'AI online.</p>
@@ -54,7 +65,7 @@
           <li><strong>Internet:</strong> solo per i casi elencati sopra.</li>
           </ul>
           <h2>Cancellare i dati</h2>
-          <p>Disinstalla l'app, oppure, per la web app, cancella i dati del sito dal browser.</p>
+          <p>Disinstalla l'app, oppure, per la web app, cancella i dati del sito dal browser. Per i dati online: Impostazioni › Sincronizzazione › <em>Cancella account e dati online</em>.</p>
           <h2>Contatti</h2>
           <p>Per domande apri una segnalazione nella pagina <a href="https://github.com/Layaris/DMReleases/issues">Issues</a>.</p>
       </div>

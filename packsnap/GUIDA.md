@@ -23,6 +23,19 @@ se usi la web app). In basso ci sono quattro schede: **Inventario**, **Valigie**
 
 In alto ci sono la ricerca e i filtri per categoria. L'inventario si può vedere a griglia o a elenco.
 
+### Contenitori (beauty case, astucci)
+
+Un oggetto può tenere dentro altri oggetti, per esempio un beauty case con creme e spazzolino.
+
+1. Apri l'oggetto (o creane uno nuovo, con la sua foto) e accendi **È un contenitore**.
+2. Sotto **Dentro** tocca **Aggiungi oggetti** e scegli quelli che ci tieni, tra quelli già registrati.
+   Per toglierne uno tocca la **×** accanto. Da un oggetto normale puoi anche scegliere **Sta dentro**.
+3. Nell'inventario il contenitore mostra *Contenitore · N oggetti* e le cose dentro *In …*.
+
+Quando aggiungi il contenitore a una valigia, entra con tutto quello che ha dentro. Nella checklist le cose
+dentro compaiono sotto il contenitore, rientrate, ognuna con la sua spunta e con il conto *Dentro: 2/5*.
+Se togli il contenitore dalla valigia, esce con il suo contenuto (c'è sempre **Annulla**).
+
 ## 3. Valigie
 
 Nella scheda **Valigie** tocca **Nuova valigia**. Dai un nome, scegli tipo e colore, e se vuoi
@@ -56,6 +69,12 @@ Quando una funzione è spenta, nell'app non compare da nessuna parte.
 - **Meteo:** previsioni della destinazione e suggerimenti (ombrello, giacca…) da aggiungere alla valigia.
 - **Promemoria:** una notifica la sera prima e la mattina della partenza, con la lista *Prima di uscire*.
 - **Documenti e scadenze:** ti avvisa se un documento scade prima o durante il viaggio.
+- **Sincronizzazione online:** gli stessi dati su telefono, tablet e computer. In **Impostazioni →
+  Sincronizzazione** crei un account con email e password (o entri con quello che hai già). Tutto viene
+  cifrato sul dispositivo con la tua password prima di partire: online restano solo dati illeggibili, e le
+  foto online sono una copia ridotta. Si sincronizza da sola; se lo stesso oggetto cambia su due dispositivi
+  vince la modifica più recente. **Non perdere la password**: senza, i dati online non si possono aprire
+  (quelli sul dispositivo restano). Tema, lingua e funzioni extra restano di ogni dispositivo.
 - Le altre funzioni sono descritte direttamente nella schermata, sotto ogni interruttore.
 
 ## 6. Backup
