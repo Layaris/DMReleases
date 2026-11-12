@@ -27,14 +27,19 @@ In alto ci sono la ricerca e i filtri per categoria. L'inventario si può vedere
 
 Un oggetto può tenere dentro altri oggetti, per esempio un beauty case con creme e spazzolino.
 
-1. Apri l'oggetto (o creane uno nuovo, con la sua foto) e accendi **È un contenitore**.
-2. Sotto **Dentro** tocca **Aggiungi oggetti** e scegli quelli che ci tieni, tra quelli già registrati.
-   Per toglierne uno tocca la **×** accanto. Da un oggetto normale puoi anche scegliere **Sta dentro**.
-3. Nell'inventario il contenitore mostra *Contenitore · N oggetti* e le cose dentro *In …*.
+- **Mentre crei l'oggetto** (dopo la foto): sotto il nome scegli **Contenitore** invece di *Oggetto*. Sotto
+  compare **Dentro**: tocca **Aggiungi oggetti** e scegli quelli che ci tieni, tra quelli già registrati.
+- **Dall'inventario**, tenendo premuto un oggetto:
+  - **Rendilo un contenitore**: diventa un contenitore e scegli subito cosa c'è dentro;
+  - **Metti in un contenitore…**: lo sposti in un contenitore che hai già (o in uno nuovo);
+  - su un contenitore, **Cosa c'è dentro…**: sposti dentro più oggetti in una volta o li togli.
+- Nell'inventario il contenitore mostra *Contenitore · N oggetti* e le cose dentro *In …*.
 
-Quando aggiungi il contenitore a una valigia, entra con tutto quello che ha dentro. Nella checklist le cose
-dentro compaiono sotto il contenitore, rientrate, ognuna con la sua spunta e con il conto *Dentro: 2/5*.
-Se togli il contenitore dalla valigia, esce con il suo contenuto (c'è sempre **Annulla**).
+**In valigia**: quando aggiungi il contenitore, entra con tutto quello che ha dentro. Nella checklist le cose
+dentro compaiono sotto il contenitore, rientrate. Tocca **Dentro: 2/5** per aprire *Cosa hai messo nel
+beauty case?*: spunti ogni cosa quando la infili dentro (o **Spunta tutto**) e con **Aggiungi in …** ci
+metti altre cose dall'inventario. Se togli il contenitore dalla valigia, esce con il suo contenuto
+(c'è sempre **Annulla**).
 
 ## 3. Valigie
 
