@@ -1,8 +1,8 @@
 {
   "app": "packsnap",
-  "version": null,
-  "build": null,
-  "date": null,
-  "apk": null,
+  "version": "1.0.0",
+  "build": 50,
+  "date": "2026-11-12",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/packsnap-build-50/PackSnap-build-50.apk",
   "ipa": null
 }

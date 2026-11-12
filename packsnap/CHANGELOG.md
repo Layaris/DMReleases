@@ -9,6 +9,10 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 
 ## Prossima versione (in preparazione)
 
+- Nessuna novità per ora
+
+## build 50 — 12 novembre 2026
+
 - Checklist del ritorno (funzione extra)
 - Cose da fare prima di partire, una lista per viaggio (funzione extra)
 - Backup automatico in una cartella del telefono (funzione extra, Android)
