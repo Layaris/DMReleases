@@ -1,10 +1,10 @@
 {
   "app": "multifolio",
   "version": "0.8.1",
-  "build": 24,
-  "date": "2026-11-13T12:50:49Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.1-build24/multifolio-0.8.1-build24.apk",
+  "build": 25,
+  "date": "2026-11-13T18:03:53Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.1-build25/multifolio-0.8.1-build25.apk",
   "ipa": null,
-  "commit": "f0c4597",
-  "notes": "Earn: Kraken; notifiche di attacchi collegati una volta sola; esito delle chiavi\nEarn degli exchange: Nexo e Kast (vault Gauntlet, USD Prime, USD Reserve)\nEarn (BYUSDT, RLUSD, campagne), prezzi nella valuta principale, APY aggiunto al saldo, Home compatta sul computer\nEarn degli exchange: Bybit, Binance sul sito dalla lettura del telefono, KYC per exchange\nMaple, preferiti e tipo di pool nello scanner, Home compatta, Earn degli exchange con punteggio\nRiordino di menu e grafica: barra in basso, Home, Pool DeFi, Strumenti, pagina asset, Funzioni, menu del computer\nPool: allarmi sui collaterali del mercato per tutte le piattaforme di lending\nPool: tutti gli allarmi, ognuno attivabile (pool sbilanciato, emissione/riscatti, protocollo collegato, governance)\nPool: allarmi nuovi (parità, token del protocollo, rete ferma, controllo indebolito) e indicatore Uscita\nScanner Beta: punteggio nuovo e severo dei pool di stablecoin, coppie LP e vault\nAudit completo: sito più veloce ad aprirsi, pagina "
+  "commit": "4afe341",
+  "notes": "Notifiche corrette (guadagni dai pool, promozioni Earn), risparmio batteria Android, spazio Actions"
 }

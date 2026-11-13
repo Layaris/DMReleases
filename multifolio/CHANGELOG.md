@@ -1,6 +1,12 @@
 # Novità di Multifolio
 <!-- changelog:next -->
 
+## 0.8.1 (build 25) – 13/11/2026
+
+- Notifiche corrette (guadagni dai pool, promozioni Earn), risparmio batteria Android, spazio Actions
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.1-build25/multifolio-0.8.1-build25.apk)
+
 ## 0.8.1 (build 24) – 13/11/2026
 
 - Earn: Kraken; notifiche di attacchi collegati una volta sola; esito delle chiavi

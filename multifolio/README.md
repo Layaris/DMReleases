@@ -125,7 +125,7 @@ Tutte le versioni pubblicate sono anche nelle
 (tag `multifolio-v<versione>-build<N>`).
 
 <!-- multifolio:latest -->
-- **Android: 0.8.1 (build 24)** del 13/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.1-build24/multifolio-0.8.1-build24.apk) · [Novità](CHANGELOG.md)
+- **Android: 0.8.1 (build 25)** del 13/11/2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.1-build25/multifolio-0.8.1-build25.apk) · [Novità](CHANGELOG.md)
 <!-- /multifolio:latest -->
 
 ## iPhone (IPA)
