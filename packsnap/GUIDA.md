@@ -80,6 +80,8 @@ Quando una funzione è spenta, nell'app non compare da nessuna parte.
   foto online sono una copia ridotta. Si sincronizza da sola; se lo stesso oggetto cambia su due dispositivi
   vince la modifica più recente. **Non perdere la password**: senza, i dati online non si possono aprire
   (quelli sul dispositivo restano). Tema, lingua e funzioni extra restano di ogni dispositivo.
+  Se con l'account collegato importi un backup con **Sostituisci**, il backup sostituisce anche i dati online
+  (e quindi quelli degli altri dispositivi); con **Unisci** vale la modifica più recente.
 - Le altre funzioni sono descritte direttamente nella schermata, sotto ogni interruttore.
 
 ## 6. Backup
