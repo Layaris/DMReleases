@@ -7,6 +7,19 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.4.0 – 13/11/2026
+
+- Mobili disegnati da capo, in 3D leggero: legno, maniglie e il numero di oggetti su ogni cassetto. Toccane uno per aprirlo.
+- Aggiungi con foto o video: fotografa un cassetto anche più volte (meglio con gli oggetti separati), oppure riprendi gli oggetti e dì cosa sono. L'AI li riconosce uno per uno, con la scadenza.
+- Puoi ritagliare la foto, scontornare l'oggetto o usare l'immagine del prodotto presa da internet. Il video non viene salvato.
+- Correzioni e miglioramenti di sicurezza
+- Gesti veloci: scorri a sinistra per «usato», a destra per spostare, tieni premuto per sceglierne tanti insieme. Trovi tutto in Impostazioni › Guida rapida.
+- Quando cerchi qualcosa compare «Trovato!» con il disegno del mobile e il cassetto acceso. Se chiedi a voce, l'app ti risponde a voce.
+- Lista della spesa: nella scheda di un oggetto scegli quanti tenerne sempre in casa; quando scendi sotto, compare in «Da comprare».
+- L'app impara quanto ti dura ogni cosa e ti dice quando finirà e entro quando ricomprarla.
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.4.0/Ripostia-0.4.0.apk)
+
 ## 0.3.0 – 13/11/2026
 
 - Grafica tutta nuova: cassetti in lista ordinata per categorie, nomi interi, colori e icone per capire a colpo d'occhio.

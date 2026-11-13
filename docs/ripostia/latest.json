@@ -1,10 +1,10 @@
 {
   "app": "ripostia",
-  "version": "0.3.0",
-  "build": 3000,
-  "date": "2026-11-13T16:44:46Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.3.0/Ripostia-0.3.0.apk",
-  "commit": "3b54a42",
-  "sha256": "87859306cd643f18fa04e93eba9642264127df84340191685c3f980c2fb8626e",
-  "notes": "Grafica tutta nuova: cassetti in lista ordinata per categorie, nomi interi, colori e icone per capire a colpo d'occhio.\nOgni cassetto mostra il disegno del mobile con lo scomparto evidenziato, la ricerca interna e i filtri per categoria.\nImmagini con l'AI per i tuoi oggetti: tutte nello stesso stile, una alla volta, con barra di avanzamento e «Ferma».\nHome più semplice: grande ricerca, cose da guardare (in scadenza, stanno finendo), i tuoi posti e le ultime modifiche.\nScheda oggetto rifatta: dove si trova con la mappa, quantità grande con − e +, Sposta, Avvisami, Correggi.\nQuando incolli una lista vedi un riassunto chiaro per posto e salvi tutto con un tocco. Tema scuro più leggibile."
+  "version": "0.4.0",
+  "build": 4000,
+  "date": "2026-11-13T17:40:33Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.4.0/Ripostia-0.4.0.apk",
+  "commit": "7589e21",
+  "sha256": "14214ae78f889b37bf54dc999e72e605a2e5ff854f97083dd85daefad0f7c7d8",
+  "notes": "Mobili disegnati da capo, in 3D leggero: legno, maniglie e il numero di oggetti su ogni cassetto. Toccane uno per aprirlo.\nAggiungi con foto o video: fotografa un cassetto anche più volte (meglio con gli oggetti separati), oppure riprendi gli oggetti e dì cosa sono. L'AI li riconosce uno per uno, con la scadenza.\nPuoi ritagliare la foto, scontornare l'oggetto o usare l'immagine del prodotto presa da internet. Il video non viene salvato.\nCorrezioni e miglioramenti di sicurezza\nGesti veloci: scorri a sinistra per «usato», a destra per spostare, tieni premuto per sceglierne tanti insieme. Trovi tutto in Impostazioni › Guida rapida.\nQuando cerchi qualcosa compare «Trovato!» con il disegno del mobile e il cassetto acceso. Se chiedi a voce, l'app ti risponde a voce.\nLista della spesa: nella scheda di un oggetto scegli quanti tenerne sempre in casa; quando scendi sotto, compare in «Da comprare».\nL'app impara quanto ti dura ogni cosa e ti dice quando finirà e entro quando ricomprarla."
 }
