@@ -1,10 +1,10 @@
 {
   "app": "multifolio",
-  "version": "0.8.0",
-  "build": 22,
-  "date": "2026-11-11T05:25:44Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.0-build22/multifolio-0.8.0-build22.apk",
+  "version": "0.8.1",
+  "build": 24,
+  "date": "2026-11-13T12:50:49Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.1-build24/multifolio-0.8.1-build24.apk",
   "ipa": null,
-  "commit": "9e8ca93",
-  "notes": "Versione 0.8.0\nNotizie di exploit: una notifica per notizia, non una per ogni pool\nNotifica dei guadagni dai pool: niente più \"guadagno del giorno\" come \"Ultima ora\"; file delle build per 7 giorni\nData di oggi nei movimenti, prezzo in $, wallet intero copiabile, \"Aggiungi conto\" completo, reti raggruppate, icone, Be\nPosti per wallet/rete/protocollo (v10), guadagni Aave/Lido/Ether.fi, Gnosis, CSV, «Scarta» definitivo\nAudit completo (23 difetti corretti), scanner pool Beta, conti espandibili, note leggibili, APY a 365 giorni\nSync: i record di un portafoglio cancellato non restano bloccati; STATO di fine sessione"
+  "commit": "f0c4597",
+  "notes": "Earn: Kraken; notifiche di attacchi collegati una volta sola; esito delle chiavi\nEarn degli exchange: Nexo e Kast (vault Gauntlet, USD Prime, USD Reserve)\nEarn (BYUSDT, RLUSD, campagne), prezzi nella valuta principale, APY aggiunto al saldo, Home compatta sul computer\nEarn degli exchange: Bybit, Binance sul sito dalla lettura del telefono, KYC per exchange\nMaple, preferiti e tipo di pool nello scanner, Home compatta, Earn degli exchange con punteggio\nRiordino di menu e grafica: barra in basso, Home, Pool DeFi, Strumenti, pagina asset, Funzioni, menu del computer\nPool: allarmi sui collaterali del mercato per tutte le piattaforme di lending\nPool: tutti gli allarmi, ognuno attivabile (pool sbilanciato, emissione/riscatti, protocollo collegato, governance)\nPool: allarmi nuovi (parità, token del protocollo, rete ferma, controllo indebolito) e indicatore Uscita\nScanner Beta: punteggio nuovo e severo dei pool di stablecoin, coppie LP e vault\nAudit completo: sito più veloce ad aprirsi, pagina "
 }

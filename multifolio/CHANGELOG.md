@@ -1,6 +1,24 @@
 # Novità di Multifolio
 <!-- changelog:next -->
 
+## 0.8.1 (build 24) – 13/11/2026
+
+- Earn: Kraken; notifiche di attacchi collegati una volta sola; esito delle chiavi
+- Earn degli exchange: Nexo e Kast (vault Gauntlet, USD Prime, USD Reserve)
+- Earn (BYUSDT, RLUSD, campagne), prezzi nella valuta principale, APY aggiunto al saldo, Home compatta sul computer
+- Earn degli exchange: Bybit, Binance sul sito dalla lettura del telefono, KYC per exchange
+- Maple, preferiti e tipo di pool nello scanner, Home compatta, Earn degli exchange con punteggio
+- Riordino di menu e grafica: barra in basso, Home, Pool DeFi, Strumenti, pagina asset, Funzioni, menu del computer
+- Pool: allarmi sui collaterali del mercato per tutte le piattaforme di lending
+- Pool: tutti gli allarmi, ognuno attivabile (pool sbilanciato, emissione/riscatti, protocollo collegato, governance)
+- Pool: allarmi nuovi (parità, token del protocollo, rete ferma, controllo indebolito) e indicatore Uscita
+- Scanner Beta: punteggio nuovo e severo dei pool di stablecoin, coppie LP e vault
+- Audit completo: sito più veloce ad aprirsi, pagina asset fluida, widget corretti, notizie e server; versione 0.8.1
+- Widget della Home: Patrimonio, Guadagni dai pool, Pool monitorati e Mercato
+- Valuta e tema fra dispositivi, niente "7 errori", niente cronaca nei pool, notifiche del sito ad app chiusa, suono di ca
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.1-build24/multifolio-0.8.1-build24.apk)
+
 ## 0.8.0 (build 22) – 11/11/2026
 
 - Versione 0.8.0
