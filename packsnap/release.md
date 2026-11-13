@@ -1,5 +1,5 @@
 **PackSnap** – fotografa i tuoi oggetti, scontornali e prepara la valigia con le checklist di viaggio.
-Gratis, senza account: i dati restano sul telefono.
+Gratis. Senza account i dati restano sul telefono; la sincronizzazione online è facoltativa e cifrata.
 
 **Installare o aggiornare:** scarica il file `.apk` qui sotto e aprilo sul telefono Android
 (la prima volta Android chiede di consentire l'installazione dal browser). L'aggiornamento si installa
