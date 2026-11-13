@@ -9,6 +9,10 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 
 ## Prossima versione (in preparazione)
 
+- Nessuna novità per ora
+
+## build 54 — 13 novembre 2026
+
 - Con la sincronizzazione collegata, importare un backup con "Sostituisci" sostituisce anche i dati
   online (su tutti i dispositivi collegati); "Unisci" tiene la modifica più recente
 
