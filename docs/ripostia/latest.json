@@ -1,10 +1,10 @@
 {
   "app": "ripostia",
-  "version": "0.2.2",
-  "build": 2002,
-  "date": "2026-11-11T11:05:41Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.2.2/Ripostia-0.2.2.apk",
-  "commit": "b81574e",
-  "sha256": "4f2c93c2e64ea10e17d1f028c985a307e692472768471631ba822efa179417e6",
-  "notes": "Gemini: se Google ritira il modello impostato, l'app ne sceglie da sola uno disponibile e riprova (niente più «modello non trovato»).\nPuoi incollare un inventario intero diviso per sezioni (es. «SCRIVANIA — CASSETTO IN ALTO A SINISTRA»): l'app crea luoghi, contenitori e oggetti da sola.\nNelle liste capisce anche categorie («Elettronica e accessori»), note («— chiusa e sigillata», «(marca sconosciuta)») e scadenze («scadenza 04/2028»).\nListe lunghe più veloci ed economiche: all'AI vanno solo le righe che l'app non capisce da sola."
+  "version": "0.3.0",
+  "build": 3000,
+  "date": "2026-11-13T16:44:46Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.3.0/Ripostia-0.3.0.apk",
+  "commit": "3b54a42",
+  "sha256": "87859306cd643f18fa04e93eba9642264127df84340191685c3f980c2fb8626e",
+  "notes": "Grafica tutta nuova: cassetti in lista ordinata per categorie, nomi interi, colori e icone per capire a colpo d'occhio.\nOgni cassetto mostra il disegno del mobile con lo scomparto evidenziato, la ricerca interna e i filtri per categoria.\nImmagini con l'AI per i tuoi oggetti: tutte nello stesso stile, una alla volta, con barra di avanzamento e «Ferma».\nHome più semplice: grande ricerca, cose da guardare (in scadenza, stanno finendo), i tuoi posti e le ultime modifiche.\nScheda oggetto rifatta: dove si trova con la mappa, quantità grande con − e +, Sposta, Avvisami, Correggi.\nQuando incolli una lista vedi un riassunto chiaro per posto e salvi tutto con un tocco. Tema scuro più leggibile."
 }

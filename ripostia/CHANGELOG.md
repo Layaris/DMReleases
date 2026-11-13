@@ -7,6 +7,17 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.3.0 – 13/11/2026
+
+- Grafica tutta nuova: cassetti in lista ordinata per categorie, nomi interi, colori e icone per capire a colpo d'occhio.
+- Ogni cassetto mostra il disegno del mobile con lo scomparto evidenziato, la ricerca interna e i filtri per categoria.
+- Immagini con l'AI per i tuoi oggetti: tutte nello stesso stile, una alla volta, con barra di avanzamento e «Ferma».
+- Home più semplice: grande ricerca, cose da guardare (in scadenza, stanno finendo), i tuoi posti e le ultime modifiche.
+- Scheda oggetto rifatta: dove si trova con la mappa, quantità grande con − e +, Sposta, Avvisami, Correggi.
+- Quando incolli una lista vedi un riassunto chiaro per posto e salvi tutto con un tocco. Tema scuro più leggibile.
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.3.0/Ripostia-0.3.0.apk)
+
 ## 0.2.2 – 11/11/2026
 
 - Gemini: se Google ritira il modello impostato, l'app ne sceglie da sola uno disponibile e riprova (niente più «modello non trovato»).
