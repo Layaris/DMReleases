@@ -7,6 +7,16 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.6.0 – 14/11/2026
+
+- Prezzo indicativo dei consumabili: scrivilo nella scheda dell'oggetto (es. 4,50 € a tubetto), oppure quando segni «Preso» nella lista della spesa.
+- Quanto spendi: in «Spesa e consumi» vedi il totale dell'anno e quanto hai speso per ogni oggetto, mese per mese.
+- Nuovo «Lo prendo per usarlo»: se togli qualcosa dal cassetto per usarlo, va in «In uso» (lo vedi in Home). Quando l'hai finito tocca «Finito»; con ↩ lo rimetti dov'era.
+- La lista della spesa mostra quanto costerà, riga per riga e in totale.
+- Puoi chiedere: «quanto ho speso per il dentifricio quest'anno?».
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.0/Ripostia-0.6.0.apk)
+
 ## 0.5.0 – 14/11/2026
 
 - Nuova funzione «Disegna il mobile»: fai una foto (anche brutta) e descrivilo a parole, l'app lo ricrea pulito con i suoi cassetti, ante e ripiani.

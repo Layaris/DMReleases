@@ -1,10 +1,10 @@
 {
   "app": "ripostia",
-  "version": "0.5.0",
-  "build": 5000,
-  "date": "2026-11-14T03:15:12Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.5.0/Ripostia-0.5.0.apk",
-  "commit": "e7f5662",
-  "sha256": "74c05bc50980da1f874f80b80f5ae2d623fdd236f5b3394296a6115887c350e9",
-  "notes": "Nuova funzione «Disegna il mobile»: fai una foto (anche brutta) e descrivilo a parole, l'app lo ricrea pulito con i suoi cassetti, ante e ripiani.\nPoi lo ritocchi a dito: tocca un cassetto per rinominarlo, dividerlo, cambiarlo in anta o vano, farlo più grande o toglierlo. Scegli colore, maniglie e piedini.\nCorrezioni e miglioramenti di sicurezza\nTutti i mobili hanno una grafica nuova, più realistica: legno o colori veri, maniglie, piedini, cartellini con il nome e quanti oggetti ci sono.\nSui ripiani e negli armadi si vedono libri, scatole e vestiti stilizzati: più cose ci sono, più il ripiano è pieno.\nLo trovi in Home › Aggiungi › «Un mobile da foto o descrizione», oppure nel menu ⋯ di un mobile: «Ridisegna il mobile»."
+  "version": "0.6.0",
+  "build": 6000,
+  "date": "2026-11-14T03:37:32Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.0/Ripostia-0.6.0.apk",
+  "commit": "33577cf",
+  "sha256": "466854f485d861c98f925299de0a382c27930f75ac41a12b88c5de88f1e0e17e",
+  "notes": "Prezzo indicativo dei consumabili: scrivilo nella scheda dell'oggetto (es. 4,50 € a tubetto), oppure quando segni «Preso» nella lista della spesa.\nQuanto spendi: in «Spesa e consumi» vedi il totale dell'anno e quanto hai speso per ogni oggetto, mese per mese.\nNuovo «Lo prendo per usarlo»: se togli qualcosa dal cassetto per usarlo, va in «In uso» (lo vedi in Home). Quando l'hai finito tocca «Finito»; con ↩ lo rimetti dov'era.\nLa lista della spesa mostra quanto costerà, riga per riga e in totale.\nPuoi chiedere: «quanto ho speso per il dentifricio quest'anno?»."
 }
