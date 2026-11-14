@@ -7,6 +7,17 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.5.0 – 14/11/2026
+
+- Nuova funzione «Disegna il mobile»: fai una foto (anche brutta) e descrivilo a parole, l'app lo ricrea pulito con i suoi cassetti, ante e ripiani.
+- Poi lo ritocchi a dito: tocca un cassetto per rinominarlo, dividerlo, cambiarlo in anta o vano, farlo più grande o toglierlo. Scegli colore, maniglie e piedini.
+- Correzioni e miglioramenti di sicurezza
+- Tutti i mobili hanno una grafica nuova, più realistica: legno o colori veri, maniglie, piedini, cartellini con il nome e quanti oggetti ci sono.
+- Sui ripiani e negli armadi si vedono libri, scatole e vestiti stilizzati: più cose ci sono, più il ripiano è pieno.
+- Lo trovi in Home › Aggiungi › «Un mobile da foto o descrizione», oppure nel menu ⋯ di un mobile: «Ridisegna il mobile».
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.5.0/Ripostia-0.5.0.apk)
+
 ## 0.4.0 – 13/11/2026
 
 - Mobili disegnati da capo, in 3D leggero: legno, maniglie e il numero di oggetti su ogni cassetto. Toccane uno per aprirlo.
