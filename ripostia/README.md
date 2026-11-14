@@ -1,17 +1,18 @@
 # <img src="grafica/icona-192.png" alt="" width="40" height="40" align="top"> Ripostia
 
 **Ogni cosa al suo posto. Basta chiedere.**
-Inventario personale visuale: stanze, mobili, cassetti e oggetti, con foto, quantità e consumi.
-Dici o scrivi «metti una maglietta nel cassetto in alto a sinistra della scrivania» e Ripostia la sistema.
+Inventario personale visuale: i tuoi mobili disegnati su misura (basta una foto e due parole), cassetti con il loro nome,
+oggetti con foto, quantità, scadenze e lista della spesa che si aggiorna da sola.
+Dici o scrivi «metti una maglietta nel cassetto in alto a sinistra della scrivania» e Ripostia la sistema; chiedi «dove sono i lacci?» e te lo mostra.
 Gratis, senza account, senza pubblicità: i dati restano sul tuo dispositivo.
 
 [Apri la web app](https://ripostia.pages.dev) · [Novità (changelog)](CHANGELOG.md) · [Privacy](PRIVACY.md) ·
 [Pagina sul sito](https://layaris.github.io/DMReleases/ripostia/) · [Tutte le app](../README.md)
 
 <p align="center">
-  <img src="grafica/screenshot/telefono-chiedi.png" alt="Assistente: piano da confermare" width="220">
-  <img src="grafica/screenshot/telefono-cassetto.png" alt="Cassetto aperto con l'oggetto evidenziato" width="220">
-  <img src="grafica/screenshot/telefono-armadio.png" alt="Armadio con appendiabiti e ripiani" width="220">
+  <img src="grafica/screenshot/telefono-scrivania.png" alt="Scrivania disegnata con il nome di ogni cassetto" width="220">
+  <img src="grafica/screenshot/telefono-disegna.png" alt="Disegna il mobile da foto e descrizione" width="220">
+  <img src="grafica/screenshot/telefono-trovato.png" alt="Trovato!: il cassetto giusto acceso" width="220">
 </p>
 
 <sub>Gli oggetti nelle immagini sono dati di esempio.</sub>
@@ -46,6 +47,7 @@ Ripostia non ha un cloud: per non perdere l'inventario (telefono rotto, app disi
 
 ## Funzioni AI (facoltative)
 
-Voce, frasi libere, riconoscimento foto, illustrazioni e scansione video usano un provider AI a tua scelta
-(Gemini, NanoGPT o compatibile OpenAI) con la **tua** chiave, che resta sul telefono. Possono avere un costo sul tuo
-account del provider. Senza AI l'app si usa a mano, e le domande e le liste semplici funzionano lo stesso.
+Voce, frasi libere, mobile ridisegnato dalla foto, riconoscimento di foto e video e immagini degli oggetti usano un
+provider AI a tua scelta (Gemini, NanoGPT o compatibile OpenAI) con la **tua** chiave, che resta sul telefono. Possono avere
+un costo sul tuo account del provider (con NanoGPT pochi millesimi di euro a richiesta). Senza AI l'app si usa a mano: domande,
+liste e mobili descritti a parole funzionano lo stesso, e per foto e video c'è la modalità gratuita con ChatGPT o Gemini (copia e incolla).
