@@ -1,6 +1,12 @@
 # Novità di Multifolio
 <!-- changelog:next -->
 
+## 0.8.2 (build 26) – 14/11/2026
+
+- Impostazioni, funzioni e chiave Earn fra i dispositivi; notifiche del sito più affidabili; logo di Kast (0.8.2)
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.2-build26/multifolio-0.8.2-build26.apk)
+
 ## 0.8.1 (build 25) – 13/11/2026
 
 - Notifiche corrette (guadagni dai pool, promozioni Earn), risparmio batteria Android, spazio Actions

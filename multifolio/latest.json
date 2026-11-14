@@ -1,10 +1,10 @@
 {
   "app": "multifolio",
-  "version": "0.8.1",
-  "build": 25,
-  "date": "2026-11-13T18:03:53Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.1-build25/multifolio-0.8.1-build25.apk",
+  "version": "0.8.2",
+  "build": 26,
+  "date": "2026-11-14T04:36:16Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/multifolio-v0.8.2-build26/multifolio-0.8.2-build26.apk",
   "ipa": null,
-  "commit": "4afe341",
-  "notes": "Notifiche corrette (guadagni dai pool, promozioni Earn), risparmio batteria Android, spazio Actions"
+  "commit": "643dddb",
+  "notes": "Impostazioni, funzioni e chiave Earn fra i dispositivi; notifiche del sito più affidabili; logo di Kast (0.8.2)"
 }
