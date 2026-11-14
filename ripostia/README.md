@@ -2,7 +2,7 @@
 
 **Ogni cosa al suo posto. Basta chiedere.**
 Inventario personale visuale: i tuoi mobili disegnati su misura (basta una foto e due parole), cassetti con il loro nome,
-oggetti con foto, quantità, scadenze e lista della spesa che si aggiorna da sola.
+oggetti con foto, quantità, scadenze, prezzi indicativi (quanto spendi per ogni oggetto in un anno) e lista della spesa che si aggiorna da sola.
 Dici o scrivi «metti una maglietta nel cassetto in alto a sinistra della scrivania» e Ripostia la sistema; chiedi «dove sono i lacci?» e te lo mostra.
 Gratis, senza account, senza pubblicità: i dati restano sul tuo dispositivo.
 
