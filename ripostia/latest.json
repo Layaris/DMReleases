@@ -1,10 +1,10 @@
 {
   "app": "ripostia",
-  "version": "0.6.0",
-  "build": 6000,
-  "date": "2026-11-14T03:37:32Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.0/Ripostia-0.6.0.apk",
-  "commit": "33577cf",
-  "sha256": "466854f485d861c98f925299de0a382c27930f75ac41a12b88c5de88f1e0e17e",
-  "notes": "Prezzo indicativo dei consumabili: scrivilo nella scheda dell'oggetto (es. 4,50 € a tubetto), oppure quando segni «Preso» nella lista della spesa.\nQuanto spendi: in «Spesa e consumi» vedi il totale dell'anno e quanto hai speso per ogni oggetto, mese per mese.\nNuovo «Lo prendo per usarlo»: se togli qualcosa dal cassetto per usarlo, va in «In uso» (lo vedi in Home). Quando l'hai finito tocca «Finito»; con ↩ lo rimetti dov'era.\nLa lista della spesa mostra quanto costerà, riga per riga e in totale.\nPuoi chiedere: «quanto ho speso per il dentifricio quest'anno?»."
+  "version": "0.6.1",
+  "build": 6001,
+  "date": "2026-11-14T16:03:07Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.1/Ripostia-0.6.1.apk",
+  "commit": "0e62b85",
+  "sha256": "a944bd24f0088054637fbec14580b35a1354d27d5f0dd8fc611c277e69ae2574",
+  "notes": "Video fino a 2 minuti per aggiungere gli oggetti (prima 1 minuto), con più fotogrammi se il video è lungo.\nNanoGPT: corretti i video grandi e l'audio lungo, che prima potevano essere rifiutati.\nPrima di analizzare vedi quanto costa (es. un video di 2 minuti circa 0,35 centesimi). In Impostazioni › Provider AI un pulsante sceglie i modelli più economici."
 }

@@ -7,6 +7,14 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.6.1 – 14/11/2026
+
+- Video fino a 2 minuti per aggiungere gli oggetti (prima 1 minuto), con più fotogrammi se il video è lungo.
+- NanoGPT: corretti i video grandi e l'audio lungo, che prima potevano essere rifiutati.
+- Prima di analizzare vedi quanto costa (es. un video di 2 minuti circa 0,35 centesimi). In Impostazioni › Provider AI un pulsante sceglie i modelli più economici.
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.1/Ripostia-0.6.1.apk)
+
 ## 0.6.0 – 14/11/2026
 
 - Prezzo indicativo dei consumabili: scrivilo nella scheda dell'oggetto (es. 4,50 € a tubetto), oppure quando segni «Preso» nella lista della spesa.
