@@ -2,7 +2,7 @@
 
 [← Torna a PackSnap](README.md)
 
-*Aggiornata al 12 novembre 2026.*
+*Aggiornata al 15 novembre 2026.*
 
 PackSnap è fatta per tenere i tuoi dati con te.
 
@@ -24,7 +24,7 @@ della web app (Cloudflare), per averli uguali su più dispositivi:
   conserva solo dati illeggibili e non conosce la password;
 - sul server ci sono la tua **email**, un'impronta della chiave d'accesso (non la password) e i dati cifrati;
   le foto online sono una **copia ridotta**, anche lei cifrata;
-- tema, lingua, funzioni extra e la chiave di Gemini **non** si sincronizzano;
+- tema, lingua, funzioni extra e le chiavi dell'AI (Gemini, NanoGPT) **non** si sincronizzano;
 - se dimentichi la password i dati online non si possono aprire, nemmeno da chi gestisce il server
   (quelli sul tuo dispositivo restano);
 - da **Impostazioni › Sincronizzazione** puoi uscire da un dispositivo o **cancellare l'account**: con
@@ -38,13 +38,14 @@ Solo in questi casi, e solo con i dati indicati:
 |---|---|---|
 | Riconoscimento con Gemini (facoltativo, con la tua chiave) | Google (Gemini API) | La foto dell'oggetto che scegli di riconoscere; per l'assistente, la descrizione del viaggio e nomi e categorie degli oggetti (mai le foto) |
 | Import da video con Gemini (facoltativo) | Google (Gemini API) | Il video che scegli; viene cancellato dopo l'analisi |
+| AI online con NanoGPT (funzione extra, facoltativa, con la tua chiave) | NanoGPT, che passa la richiesta al modello scelto (per i modelli Gemini, a Google) | La foto che scegli di riconoscere; una copia ridotta del video che scegli, preparata sul telefono e cancellata dopo l'invio; per l'assistente, la descrizione del viaggio e nomi e categorie degli oggetti (mai le foto) |
 | Meteo (funzione extra) | Open-Meteo | Il nome della destinazione e le date del viaggio |
 | Avviso di nuova versione (app Android, si può spegnere) | GitHub | Una richiesta anonima alla pagina pubblica delle versioni |
 | Sincronizzazione online (funzione extra, con account) | Cloudflare (server della web app) | Email e dati cifrati sul dispositivo con la tua password, foto ridotte e cifrate |
 | Scontorno nella web app | Il sito della web app | Il primo uso scarica il modello di scontorno (circa 44 MB); le foto restano nel browser |
 | Scontorno su Android | Google Play Services | Il modello di scontorno di ML Kit si scarica sul telefono; le foto restano sul telefono |
 
-La chiave di Gemini resta nel portachiavi sicuro del telefono e non finisce mai nei backup.
+Le chiavi di Gemini e di NanoGPT restano nel portachiavi sicuro del telefono e non finiscono mai nei backup.
 Con il piano gratuito di Gemini, fuori dall'Unione Europea Google può usare i contenuti inviati
 per migliorare i suoi servizi: non fotografare documenti o dati personali con l'AI online.
 

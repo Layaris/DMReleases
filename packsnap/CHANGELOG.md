@@ -15,6 +15,9 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 
 - Con la sincronizzazione collegata, importare un backup con "Sostituisci" sostituisce anche i dati
   online (su tutti i dispositivi collegati); "Unisci" tiene la modifica più recente
+- AI online con NanoGPT (funzione extra): usi la tua chiave NanoGPT al posto di quella Google per
+  riconoscere foto e video e per l'assistente, pagando solo quello che usi; il modello già scelto è il più
+  economico. I video girati col telefono, anche pesanti, vengono alleggeriti sul telefono prima dell'invio
 
 ## build 50 — 12 novembre 2026
 

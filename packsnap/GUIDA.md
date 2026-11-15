@@ -114,3 +114,9 @@ In **Impostazioni → Intelligenza artificiale** puoi aggiungere una chiave grat
 sicuro del telefono e non finisce mai nei backup. Il piano gratuito ha dei limiti di richieste;
 fuori dall'Unione Europea le foto inviate gratis possono essere usate da Google per migliorare i suoi servizi.
 Non fotografare documenti o dati personali con l'AI online.
+
+Se preferisci [NanoGPT](https://nano-gpt.com), accendi **AI online con NanoGPT** in
+Impostazioni → Funzioni extra e incolla la tua chiave NanoGPT in Impostazioni → Intelligenza artificiale:
+paghi solo quello che usi, con il credito caricato sul tuo account NanoGPT. Il modello già scelto è il
+più economico. Per l'import da video va bene qualsiasi video fino a 5 minuti: il telefono ne prepara una
+copia leggera, la invia e poi la cancella.
