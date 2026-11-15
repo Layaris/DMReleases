@@ -7,6 +7,14 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.6.2 – 15/11/2026
+
+- NanoGPT: in Impostazioni › Provider AI vedi i modelli consigliati con il nome e quanto costano (una foto, un video di 2 minuti) e scegli con un tocco.
+- Vanno bene anche i video pesanti dell'iPhone: il video resta sul telefono, all'AI arrivano solo pochi MB di immagini e audio.
+- Nuovo pulsante «Scegli dalla galleria» per usare un video già girato.
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.2/Ripostia-0.6.2.apk)
+
 ## 0.6.1 – 14/11/2026
 
 - Video fino a 2 minuti per aggiungere gli oggetti (prima 1 minuto), con più fotogrammi se il video è lungo.

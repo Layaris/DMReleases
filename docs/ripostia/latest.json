@@ -1,10 +1,10 @@
 {
   "app": "ripostia",
-  "version": "0.6.1",
-  "build": 6001,
-  "date": "2026-11-14T16:03:07Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.1/Ripostia-0.6.1.apk",
-  "commit": "0e62b85",
-  "sha256": "a944bd24f0088054637fbec14580b35a1354d27d5f0dd8fc611c277e69ae2574",
-  "notes": "Video fino a 2 minuti per aggiungere gli oggetti (prima 1 minuto), con più fotogrammi se il video è lungo.\nNanoGPT: corretti i video grandi e l'audio lungo, che prima potevano essere rifiutati.\nPrima di analizzare vedi quanto costa (es. un video di 2 minuti circa 0,35 centesimi). In Impostazioni › Provider AI un pulsante sceglie i modelli più economici."
+  "version": "0.6.2",
+  "build": 6002,
+  "date": "2026-11-15T04:22:35Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.2/Ripostia-0.6.2.apk",
+  "commit": "a83930a",
+  "sha256": "a902db7cb0b05d37baa77e0c4a5e6291acf0ecc0ecb7740742c2b811fd7e9cbd",
+  "notes": "NanoGPT: in Impostazioni › Provider AI vedi i modelli consigliati con il nome e quanto costano (una foto, un video di 2 minuti) e scegli con un tocco.\nVanno bene anche i video pesanti dell'iPhone: il video resta sul telefono, all'AI arrivano solo pochi MB di immagini e audio.\nNuovo pulsante «Scegli dalla galleria» per usare un video già girato."
 }
