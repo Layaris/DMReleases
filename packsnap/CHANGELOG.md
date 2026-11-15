@@ -11,6 +11,10 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 
 - Nessuna novità per ora
 
+## build 57 — 15 novembre 2026
+
+- Miglioramenti e correzioni
+
 ## build 54 — 13 novembre 2026
 
 - Con la sincronizzazione collegata, importare un backup con "Sostituisci" sostituisce anche i dati
