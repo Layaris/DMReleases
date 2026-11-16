@@ -7,6 +7,17 @@ Qui c'è la storia delle versioni pubblicate. I file sono nella pagina
 
 <!-- changelog:next -->
 
+## 0.7.0 – 16/11/2026
+
+- Video fino a 20 minuti: l'app lo divide in pezzi da 2 minuti e unisce i risultati, senza doppioni.
+- Per ogni oggetto l'AI guarda di nuovo pochi secondi di video e sceglie la foto in cui si vede meglio.
+- Nomi più precisi: marca e modello letti sull'oggetto (es. «Powerbank Anker 10000», non «caricatore»).
+- Correzioni e miglioramenti di sicurezza
+- Nuovo «Automatico»: se Gemini non ce la fa usa NanoGPT (e viceversa), se hai inserito entrambe le chiavi.
+- Più robusto: un fotogramma rovinato non blocca più l'analisi, e uscendo dalla schermata le richieste si fermano.
+
+[Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.7.0/Ripostia-0.7.0.apk)
+
 ## 0.6.2 – 15/11/2026
 
 - NanoGPT: in Impostazioni › Provider AI vedi i modelli consigliati con il nome e quanto costano (una foto, un video di 2 minuti) e scegli con un tocco.

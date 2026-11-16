@@ -1,10 +1,10 @@
 {
   "app": "ripostia",
-  "version": "0.6.2",
-  "build": 6002,
-  "date": "2026-11-15T04:22:35Z",
-  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.6.2/Ripostia-0.6.2.apk",
-  "commit": "a83930a",
-  "sha256": "a902db7cb0b05d37baa77e0c4a5e6291acf0ecc0ecb7740742c2b811fd7e9cbd",
-  "notes": "NanoGPT: in Impostazioni › Provider AI vedi i modelli consigliati con il nome e quanto costano (una foto, un video di 2 minuti) e scegli con un tocco.\nVanno bene anche i video pesanti dell'iPhone: il video resta sul telefono, all'AI arrivano solo pochi MB di immagini e audio.\nNuovo pulsante «Scegli dalla galleria» per usare un video già girato."
+  "version": "0.7.0",
+  "build": 7000,
+  "date": "2026-11-16T06:28:26Z",
+  "apk": "https://github.com/Layaris/DMReleases/releases/download/ripostia-v0.7.0/Ripostia-0.7.0.apk",
+  "commit": "f3c2def",
+  "sha256": "e0e334b53f5dac61d2e355c4f24b485f0074a56cb76edc494d8e62c5c6747019",
+  "notes": "Video fino a 20 minuti: l'app lo divide in pezzi da 2 minuti e unisce i risultati, senza doppioni.\nPer ogni oggetto l'AI guarda di nuovo pochi secondi di video e sceglie la foto in cui si vede meglio.\nNomi più precisi: marca e modello letti sull'oggetto (es. «Powerbank Anker 10000», non «caricatore»).\nCorrezioni e miglioramenti di sicurezza\nNuovo «Automatico»: se Gemini non ce la fa usa NanoGPT (e viceversa), se hai inserito entrambe le chiavi.\nPiù robusto: un fotogramma rovinato non blocca più l'analisi, e uscendo dalla schermata le richieste si fermano."
 }
