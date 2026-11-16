@@ -1,0 +1,12 @@
+{
+  "file": "Ledgy.shortcut",
+  "bytes": 25016,
+  "sha256": "d00d96f0d5a8accdf582b8a87054e8c7d3947f7327e90760c80771a7ff56f48b",
+  "archive": "AEA1 with certificate chain",
+  "complete_workflow_matches_generated_source": true,
+  "source_modified": false,
+  "actions": 17,
+  "import_question_preserved": true,
+  "iphone_execution_tested": false,
+  "full_cryptographic_signature_validation_performed": false
+}

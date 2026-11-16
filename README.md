@@ -1,5 +1,7 @@
 # DM Releases
 
+**Comandi iPhone:** [pagina e download](https://layaris.github.io/DMReleases/shortcuts/) · [istruzioni separate](shortcuts/istruzioni/README.md) · [storico](shortcuts/istruzioni/STORICO.md)
+
 Qui trovi le **pubblicazioni ufficiali delle app DM**: i file da installare
 (APK per Android, IPA per iPhone), le note di rilascio, le guide d'uso e la grafica.
 

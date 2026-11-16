@@ -1,0 +1,26 @@
+{
+  "updated": "2026-11-16",
+  "signature_note": "Archivio AEA e catena certificati ispezionati; non una verifica crittografica completa o un test iPhone.",
+  "files": [
+    {
+      "file": "Driver_Grab_Gojek_v4.shortcut",
+      "path": "docs/shortcuts/downloads/Driver_Grab_Gojek_v4.shortcut",
+      "current": true,
+      "sha256": "4aa6cee6e239c3101da7d3d88478af4564ea1057049a303f9eae09f6251660f8",
+      "bytes": 31430,
+      "actions": 41,
+      "archive": "AEA1",
+      "device_tested": false
+    },
+    {
+      "file": "Ledgy.shortcut",
+      "path": "docs/shortcuts/downloads/Ledgy.shortcut",
+      "current": true,
+      "sha256": "d00d96f0d5a8accdf582b8a87054e8c7d3947f7327e90760c80771a7ff56f48b",
+      "bytes": 25016,
+      "actions": 17,
+      "archive": "AEA1",
+      "device_tested": false
+    }
+  ]
+}

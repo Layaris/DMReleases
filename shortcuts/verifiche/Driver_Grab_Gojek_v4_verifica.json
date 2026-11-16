@@ -1,0 +1,14 @@
+{
+  "file": "Driver_Grab_Gojek_v4.shortcut",
+  "bytes": 31430,
+  "sha256": "4aa6cee6e239c3101da7d3d88478af4564ea1057049a303f9eae09f6251660f8",
+  "archive": "AEA1 with certificate chain",
+  "actions_match_prepared_source": true,
+  "automation_metadata_removed_by_signer": true,
+  "requires_notification_trigger_on_iphone": [
+    "Gojek",
+    "Grab"
+  ],
+  "iphone_execution_tested": false,
+  "full_cryptographic_signature_validation_performed": false
+}

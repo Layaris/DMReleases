@@ -1,0 +1,2 @@
+4aa6cee6e239c3101da7d3d88478af4564ea1057049a303f9eae09f6251660f8  docs/shortcuts/downloads/Driver_Grab_Gojek_v4.shortcut
+d00d96f0d5a8accdf582b8a87054e8c7d3947f7327e90760c80771a7ff56f48b  docs/shortcuts/downloads/Ledgy.shortcut
