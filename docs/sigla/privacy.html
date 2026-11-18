@@ -44,13 +44,14 @@
         <h2>Quando l'app usa internet</h2>
         <table class="tabella">
           <thead><tr><th>Quando</th><th>Dove</th><th>Cosa viene inviato</th></tr></thead>
-          <tbody><tr><td>Riconoscimento AI dei campi (facoltativo, con la tua chiave)</td><td>Anthropic (API Claude)</td><td>Le immagini delle pagine del documento che scegli di analizzare</td></tr>
+          <tbody><tr><td>Riconoscimento AI dei campi (facoltativo, con la tua chiave)</td><td>Il servizio che scegli: Google (Gemini API), NanoGPT o Anthropic (API Claude). In modalità Automatico prima Gemini, poi NanoGPT, poi Claude, fra quelli di cui hai messo la chiave</td><td>Le immagini delle pagine del documento che scegli di analizzare e, se ne hai, i nomi dei tuoi dati personalizzati (es. “Patente”), mai i loro valori</td></tr>
             <tr><td>Avviso di nuova versione (solo app Android, al massimo una volta al giorno, si spegne in Impostazioni)</td><td>GitHub (raw.githubusercontent.com)</td><td>Nulla di tuo: l'app scarica il file pubblico <code>sigla/latest.json</code> con il numero dell'ultima versione</td></tr></tbody>
         </table>
         <p>Prima di ogni invio l'app chiede quale motore usare e ricorda che le pagine vengono inviate. Il riconoscimento
           predefinito funziona sul dispositivo, senza internet; sull'app Android anche la lettura dei documenti
-          scansionati (OCR di Google ML Kit) avviene sul telefono e non invia nulla. La chiave API resta sul dispositivo e non finisce mai nei backup.</p>
-        <p>I recenti (ultimi PDF esportati) e i modelli restano sul dispositivo; i recenti non vanno nei backup. La web app è un sito statico su Cloudflare Pages: Cloudflare riceve la normale richiesta della pagina, ma i documenti che apri non lasciano il browser.</p>
+          scansionati (OCR di Google ML Kit) avviene sul telefono e non invia nulla. Le chiavi API restano sul dispositivo e non finiscono mai nei backup.</p>
+        <p>Non usare l'AI per documenti che non vuoi condividere. Con il <strong>livello gratuito di Gemini</strong>, Google può usare i contenuti inviati per migliorare i suoi prodotti; con NanoGPT le immagini passano da NanoGPT al modello scelto. “Prova la connessione” invia solo una breve frase di prova, nessun documento.</p>
+        <p>I recenti (ultimi PDF esportati) e i modelli restano sul dispositivo; i recenti non vanno nei backup. La web app è un sito statico su Cloudflare Pages: Cloudflare riceve la normale richiesta della pagina, ma i documenti che apri non lasciano il browser. Dopo la prima apertura il browser tiene una copia dei file dell'app (non dei tuoi documenti) per aprirla anche senza internet.</p>
         <h2>Permessi</h2>
         <ul>
           <li><strong>Fotocamera e galleria:</strong> per lo scanner e per fotografare o importare la firma.</li>

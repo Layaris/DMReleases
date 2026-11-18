@@ -97,10 +97,25 @@ cerca le etichette come sopra. Nel browser questo non c'è: usa l'app Android op
 
 ### Riconoscimento AI (facoltativo)
 
-Se un PDF è una scansione e non usi l'app Android, la ricerca sul dispositivo non trova nulla. Puoi attivare
-il riconoscimento AI in **Impostazioni › Riconoscimento AI** con una tua chiave API di Anthropic. Quando tocchi
-**Compila** l'app chiede se cercare **sul dispositivo** o con l'**AI avanzata**: con l'AI le pagine vengono
-inviate come immagini ad Anthropic. Il modello predefinito è `claude-haiku-5-5` e si può cambiare.
+Se un PDF è una scansione e non usi l'app Android, o se la ricerca sul dispositivo non trova tutti i campi, puoi
+attivare il riconoscimento AI in **Impostazioni › Riconoscimento AI** con una tua chiave di uno di questi servizi:
+
+| Servizio | Dove prendi la chiave | Modello predefinito |
+|---|---|---|
+| **Google Gemini** | https://aistudio.google.com/apikey | `gemini-3.5-flash-lite` |
+| **NanoGPT** | https://nano-gpt.com/api | `gemini-2.5-flash-lite` |
+| **Anthropic (Claude)** | https://console.anthropic.com/settings/keys | `claude-haiku-5-5` |
+
+In **Servizio** scegli **Automatico** (prima Gemini, poi NanoGPT, poi Claude, fra quelli di cui hai messo la
+chiave: se uno non risponde perché il limite o il credito sono finiti, la chiave non va o c'è un errore, l'app
+passa da sola al successivo) oppure un servizio solo. **Prova la connessione** controlla la chiave con una
+breve frase di prova, senza inviare documenti. Il modello si può cambiare.
+
+Quando tocchi **Compila** l'app chiede se cercare **sul dispositivo** o con l'**AI avanzata**. Con l'AI cerca
+prima sul dispositivo (posizioni precise, dove il PDF ha il testo) e poi invia le pagine come immagini al
+servizio, che aggiunge i campi mancanti; se l'AI non risponde restano i campi trovati sul dispositivo e
+l'anteprima lo dice. Con il livello gratuito di Gemini, Google può usare i contenuti inviati: non usare l'AI per
+documenti che non vuoi condividere.
 
 ## 6. Esportare
 
@@ -121,7 +136,7 @@ In **Impostazioni › Backup**:
 - **Importa backup**: scegli il file, poi **Unisci** (aggiunge le firme che mancano e completa i campi
   vuoti del profilo) o **Sostituisci** (usa solo i dati del backup).
 
-La chiave API dell'AI non va nel backup.
+Le chiavi API dell'AI non vanno nel backup: all'importazione restano quelle del dispositivo.
 
 ## 8. Sicurezza
 
