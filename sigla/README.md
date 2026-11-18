@@ -31,7 +31,9 @@ Gratis per uso personale, senza account e senza pubblicità: documenti e firme r
 ### Computer (web app)
 
 Apri **[dmsigla.pages.dev](https://dmsigla.pages.dev)** in Chrome, Edge, Firefox o Safari: non si
-installa nulla e i dati restano nel browser. Si aggiorna da sola a ogni nuova versione. Nel browser mancano solo il blocco con impronta, lo scanner e
+installa nulla e i dati restano nel browser. Si aggiorna da sola a ogni nuova versione. Dopo la prima apertura
+si apre **anche senza internet**; puoi aggiungerla alla schermata Home (telefono) o installarla dal browser
+(computer) e usarla come un'app. Nel browser mancano solo il blocco con impronta, lo scanner e
 la lettura delle scansioni sul telefono (OCR).
 
 ### Android (APK)
@@ -77,8 +79,9 @@ con **Documenti › Apri PDF**.
 - **Compila automaticamente** anche i moduli "di carta" (*Nome: ______*): l'app trova le etichette e
   propone i tuoi dati. Vedi sempre un'**anteprima** e confermi tu: niente viene inserito da solo.
   Sull'app Android funziona anche con i **documenti scansionati**: il telefono legge il testo della
-  pagina da solo, senza internet. In alternativa c'è il **riconoscimento AI** facoltativo, con una tua
-  chiave Anthropic.
+  pagina da solo, senza internet. In più c'è il **riconoscimento AI** facoltativo, con una tua chiave
+  **Google Gemini**, **NanoGPT** o **Anthropic**: cerca prima sul dispositivo e l'AI aggiunge i campi che
+  mancano; se un servizio non risponde passa da solo al successivo.
 - **Esporta PDF**: firme e testi diventano parte del documento (non modificabili), poi salvi o condividi.
 - **Recenti**: gli ultimi PDF esportati restano in *Documenti*, da riaprire o ricondividere.
 - **Modelli**: salva dove metti firma, testi e data in un modulo che compili spesso; la volta dopo

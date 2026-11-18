@@ -21,20 +21,23 @@ Solo in questi casi:
 
 | Quando | Dove | Cosa viene inviato |
 |---|---|---|
-| Riconoscimento AI dei campi (facoltativo, con la tua chiave) | Anthropic (API Claude) | Le immagini delle pagine del documento che scegli di analizzare |
+| Riconoscimento AI dei campi (facoltativo, con la tua chiave) | Il servizio che scegli: Google (Gemini API), NanoGPT o Anthropic (API Claude). In modalità *Automatico* prima Gemini, poi NanoGPT, poi Claude, fra quelli di cui hai messo la chiave | Le immagini delle pagine del documento che scegli di analizzare e, se ne hai, i **nomi** dei tuoi dati personalizzati (es. "Patente"), mai i loro valori |
 | Avviso di nuova versione (solo app Android, al massimo una volta al giorno, si spegne in *Impostazioni*) | GitHub (`raw.githubusercontent.com`) | Nulla di tuo: l'app scarica il file pubblico `sigla/latest.json` con il numero dell'ultima versione |
 
 Prima di ogni invio l'app chiede quale motore usare e ricorda che le pagine vengono inviate.
 Il riconoscimento predefinito funziona **sul dispositivo, senza internet**; sull'app Android anche la
 lettura dei documenti scansionati (OCR di Google ML Kit) avviene sul telefono e non invia nulla.
-La chiave API resta sul dispositivo e non finisce mai nei backup.
-Non usare l'AI per documenti che non vuoi condividere.
+Le chiavi API restano sul dispositivo e non finiscono mai nei backup.
+Non usare l'AI per documenti che non vuoi condividere. Con il **livello gratuito di Gemini**, Google può usare
+i contenuti inviati per migliorare i suoi prodotti; con NanoGPT le immagini passano da NanoGPT al modello scelto.
+"Prova la connessione" (in *Impostazioni*) invia solo una breve frase di prova, nessun documento.
 
 I **Recenti** (ultimi PDF esportati) e i **modelli** restano sul dispositivo; i recenti non vanno
 nei backup e si possono spegnere e cancellare in *Impostazioni*.
 
 La **web app** è un sito statico ospitato da Cloudflare Pages: Cloudflare riceve la normale richiesta della
-pagina (come per qualsiasi sito), ma i documenti che apri non lasciano mai il browser.
+pagina (come per qualsiasi sito), ma i documenti che apri non lasciano mai il browser. Dopo la prima apertura
+il browser tiene una copia dei file dell'app (non dei tuoi documenti) per aprirla anche senza internet.
 
 ## Permessi
 
