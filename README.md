@@ -43,7 +43,7 @@ si usa la web app.
   · [Guida d'uso](packsnap/GUIDA.md) · [Novità](packsnap/CHANGELOG.md) · [Privacy](packsnap/PRIVACY.md)
 
 <!-- packsnap:latest -->
-**Ultima versione Android:** build 57 del 15 novembre 2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/packsnap-build-57/PackSnap-build-57.apk) · [Novità](packsnap/CHANGELOG.md)
+**Ultima versione Android:** build 69 del 20 novembre 2026 · [Scarica l'APK](https://github.com/Layaris/DMReleases/releases/download/packsnap-build-69/PackSnap-build-69.apk) · [Novità](packsnap/CHANGELOG.md)
 <!-- /packsnap:latest -->
 <!-- /app:packsnap -->
 

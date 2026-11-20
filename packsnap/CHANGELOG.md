@@ -11,6 +11,10 @@ Qui c'è la storia delle versioni. Le nuove versioni saranno pubblicate nella pa
 
 - Nessuna novità per ora
 
+## build 69 — 20 novembre 2026
+
+- Miglioramenti e correzioni
+
 ## build 57 — 15 novembre 2026
 
 - Miglioramenti e correzioni
